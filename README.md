@@ -1,5 +1,5 @@
-My Linux Desktop
-================
+My Minimalist Desk Setup
+========================
 
 ![Screen Capture](https://user-images.githubusercontent.com/1669261/105569136-c43dbc80-5d71-11eb-93a7-9ab0ffe72eef.png)
 
@@ -8,6 +8,7 @@ Dependencies
 
  - `compton`
  - `feh`
+ - `obamenu`
  - `openbox`
  - `pcmanfm`
  - `tint2`
@@ -24,7 +25,7 @@ Optional Dependencies
 Notes
 -----
 
-Think of this project as your home folder. Configuration files are intended to decorate the `openbox` and `tint2` only. Application styles are not handled by these files. You have to find the right theme to be combined with this dark color scheme.
+Think of this project as your home folder. Configuration files are intended only to decorate the `openbox` and `tint2` (and to set the wallpaper). Application styles are not handled by these files. You have to find the right theme to be combined with this dark color scheme.
 
 Copy and paste the files to your home folder. Open `~/.config/autostart/feh.desktop` and replace this:
 
