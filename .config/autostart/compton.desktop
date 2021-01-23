@@ -1,0 +1,5 @@
+[Desktop Entry]
+Comment=The window effects.
+Exec=compton
+Name=Compton
+Type=Application

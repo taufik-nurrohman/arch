@@ -1,0 +1,5 @@
+[Desktop Entry]
+Comment=The task bar.
+Exec=tint2
+Name=Tint2
+Type=Application
