@@ -38,6 +38,8 @@ With this:
 Exec=feh --bg-fill /home/YOUR_USER_NAME/wall.jpg
 ~~~
 
-Remove this `README.md` file and then restart the computer!
+Open your terminal and run `xrdb -merge .xterm.conf` to apply the custom terminal color scheme and key mapping.
+
+Remove this `README.md` file and then restart your computer!
 
 Visit [this project page](https://github.com/taufik-nurrohman/vim) to configure the Vim editor.
