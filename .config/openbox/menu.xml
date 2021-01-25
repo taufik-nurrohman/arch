@@ -1,38 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
-	<menu id="lot" label="Menus">
-		<item label="Browser">
-			<action name="Execute">
-				<execute>firefox</execute>
-			</action>
-		</item>
-		<item label="Files">
-			<action name="Execute">
-				<execute>pcmanfm</execute>
-			</action>
-		</item>
-		<item label="Terminal">
-			<action name="Execute">
-				<execute>xterm</execute>
-			</action>
-		</item>
-		<!-- This requires the presence of the 'openbox-menu' package to work -->
-		<menu execute="/usr/bin/obamenu" id="applications-menu" label="Applications"/>
-		<separator/>
-		<item label="Restart">
-			<action name="Restart"/>
-		</item>
-		<item label="Power Off">
-			<action name="Execute">
-				<execute>poweroff</execute>
-			</action>
-		</item>
-		<item label="Exit">
-			<action name="Exit"/>
-		</item>
-		<separator/>
-		<item label="Reconfigure">
-			<action name="Reconfigure"/>
-		</item>
-	</menu>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/file:///usr/share/openbox/menu.xsd">
+<menu id="lot" label="Menus">
+  <item label="Browser">
+    <action name="Execute">
+      <execute>firefox</execute>
+    </action>
+  </item>
+  <item label="Files">
+    <action name="Execute">
+      <execute>pcmanfm</execute>
+    </action>
+  </item>
+  <item label="Terminal">
+    <action name="Execute">
+      <execute>xterm</execute>
+    </action>
+  </item>
+  <separator/>
+  <!-- This requires the presence of the 'openbox-menu' package to work -->
+  <menu execute="/usr/bin/obamenu" id="applications-menu" label="Applications"/>
+  <separator/>
+  <item label="Exit">
+    <action name="Exit">
+      <execute>exit</execute>
+    </action>
+  </item>
+  <item label="Power Off">
+    <action name="Execute">
+      <execute>poweroff</execute>
+    </action>
+  </item>
+  <item label="Restart">
+    <action name="Restart">
+      <execute>reboot</execute>
+    </action>
+  </item>
+  <separator/>
+  <item label="Refresh">
+    <action name="Reconfigure"/>
+  </item>
+</menu>
 </openbox_menu>

@@ -1,0 +1,6 @@
+[Desktop Entry]
+Comment=The terminal configuration.
+Exec=xrdb -merge /home/taufik/.xftrc && xrdb -merge /home/taufik/.xtermrc
+Name=XTerm
+Type=Application
+
