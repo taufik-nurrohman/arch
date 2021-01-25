@@ -1,0 +1,46 @@
+XTerm.vt100.utf8: true
+XTerm.vt100.title: Terminal
+
+XTerm.vt100.faceName: Terminus
+XTerm.vt100.faceSize: 9
+
+XTerm.vt100.scrollBar: false
+XTerm.vt100.scrollTtyOutput: false
+
+XTerm.vt100.saveLines: 10000
+
+! Terminal column, row, left, top
+XTerm.vt100.geometry: 90x30+30+30
+
+! Terminal background color
+XTerm.vt100.background: #080808
+
+! Terminal text color
+XTerm.vt100.foreground: #ffffff
+
+XTerm.vt100.color0: #080808
+XTerm.vt100.color1: #d75f5f
+XTerm.vt100.color2: #5faf5f
+XTerm.vt100.color3: #d7d75f
+XTerm.vt100.color4: #87afaf
+XTerm.vt100.color5: #af87d7
+XTerm.vt100.color6: #d7ffd7
+XTerm.vt100.color7: #eeeeee
+
+XTerm.vt100.color8: #888888
+XTerm.vt100.color9: #ff5f5f
+XTerm.vt100.color10: #87d75f
+XTerm.vt100.color11: #ffff87
+XTerm.vt100.color12: #87afff
+XTerm.vt100.color13: #af87ff
+XTerm.vt100.color14: #d7ffff
+XTerm.vt100.color15: #ffffff
+
+! Allow to copy text with <CTRL+SHIFT+C>
+! Allow to paste text with <CTRL+SHIFT+V>
+XTerm.vt100.selectToClipboard: true
+XTerm.vt100.translations: #override \n\
+  Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+  Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
+  Shift <Key>Up: scroll-back(1) \n\
+  Shift <Key>Down: scroll-forw(1)
