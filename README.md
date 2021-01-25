@@ -1,7 +1,7 @@
 My Minimalist Desk Setup
 ========================
 
-![Screen Capture](https://user-images.githubusercontent.com/1669261/105569136-c43dbc80-5d71-11eb-93a7-9ab0ffe72eef.png)
+![Screen Capture](https://user-images.githubusercontent.com/1669261/105722840-a8483f80-5f58-11eb-82ef-3d3de6042c14.png)
 
 Dependencies
 ------------
@@ -44,3 +44,8 @@ Copy and paste the files to your home folder. Open all files under `~/.config/au
 Remove this `README.md` file and then restart your computer!
 
 Visit [this project page](https://github.com/taufik-nurrohman/vim) to configure the Vim editor.
+
+Credits
+-------
+
+Sorry, but I don&rsquo;t remember who was the original author of the wallpaper.
