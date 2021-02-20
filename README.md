@@ -27,12 +27,12 @@ My Keyboard Shortcuts
 
 Keys | Description
 ---- | -----------
-<kbd>Win</kbd> <kbd>&larr;</kbd> | Switch to the left work space if available.
-<kbd>Win</kbd> <kbd>&rarr;</kbd> | Switch to the right work space if available.
-<kbd>Win</kbd> <kbd>d</kbd> | Toggle desktop.
-<kbd>Win</kbd> <kbd>e</kbd> | Open file explorer.
-<kbd>Win</kbd> <kbd>f</kbd> | Open web browser.
-<kbd>Win</kbd> <kbd>t</kbd> | Open terminal.
+<kbd>⊞ Win</kbd> <kbd>←</kbd> | Switch to the left work space if available.
+<kbd>⊞ Win</kbd> <kbd>→</kbd> | Switch to the right work space if available.
+<kbd>⊞ Win</kbd> <kbd>d</kbd> | Toggle desktop.
+<kbd>⊞ Win</kbd> <kbd>e</kbd> | Open file explorer.
+<kbd>⊞ Win</kbd> <kbd>f</kbd> | Open web browser.
+<kbd>⊞ Win</kbd> <kbd>t</kbd> | Open terminal.
 
 Notes
 -----
