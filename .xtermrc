@@ -1,7 +1,7 @@
 XTerm.vt100.utf8: true
 XTerm.vt100.title: Terminal
 
-XTerm.vt100.faceName: Terminus
+XTerm.vt100.faceName: DejaVu Sans Mono
 XTerm.vt100.faceSize: 9
 
 XTerm.vt100.scrollBar: false

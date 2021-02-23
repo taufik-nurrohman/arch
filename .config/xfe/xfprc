@@ -1,0 +1,13 @@
+[OPTIONS]
+height=345
+width=690
+showtoolbar=0
+ypos=174
+filename=
+xpos=138
+
+[SETTINGS]
+tippause=500
+basecolor=Gray5
+tiptime=10000
+

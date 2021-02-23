@@ -1,0 +1,32 @@
+[OPTIONS]
+textnumberforeground=Gray30
+width=800
+textfont=DejaVu Sans Mono [PfEd],80,normal,regular
+tabcols=4
+linesnum=1
+textnumberbackground=Gray6
+hilitematchtime=3000
+hidestatus=1
+wordwrap=1
+height=423
+textforeground=Gray100
+textselbackground=#0a246a
+texthiliteforeground=Black
+ypos=115
+textcursor=Gray80
+searchpath=
+texthilitebackground=Yellow
+wrapcols=80
+hidetoolbar=1
+xpos=56
+stripreturn=1
+textbackground=Black
+textselforeground=Gray100
+
+[Recent Files]
+
+[SETTINGS]
+tippause=500
+basecolor=Gray5
+tiptime=10000
+
