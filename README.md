@@ -1,7 +1,7 @@
 My Minimalist Desk Setup
 ========================
 
-![Screen Capture](https://user-images.githubusercontent.com/1669261/105722840-a8483f80-5f58-11eb-82ef-3d3de6042c14.png)
+![Screen Capture](https://user-images.githubusercontent.com/1669261/108881586-0b032880-7636-11eb-9ea8-28638d30c770.png)
 
 Dependencies
 ------------
