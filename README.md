@@ -39,7 +39,7 @@ Notes
 
 Think of this project as your home folder. Configuration files are intended only to decorate the `openbox` and `tint2` (and also to set the wallpaper). Application styles are not handled by these files. You have to find the right theme to be combined with this dark color scheme.
 
-Copy and paste the files to your home folder. Open all files under `~/.config/autostart` folder and then replace `/home/taufik/` with `/home/YOUR_USER_NAME/` if it is there.
+Copy and paste the files to your home folder.
 
 Remove this `README.md` file and then restart your computer!
 

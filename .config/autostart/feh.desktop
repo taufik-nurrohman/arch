@@ -1,5 +1,0 @@
-[Desktop Entry]
-Comment=The desktop wallpaper.
-Exec=feh --bg-fill /home/taufik/wall.jpg
-Name=Feh
-Type=Application

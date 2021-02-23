@@ -1,0 +1,4 @@
+compton &
+feh --bg-fill ~/wall.jpg &
+tint2 &
+xrdb -merge ~/.xftrc && xrdb -merge ~/.xtermrc &

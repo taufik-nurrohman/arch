@@ -20,7 +20,7 @@
   </placement>
   <theme>
     <name>taufik-nurrohman</name>
-    <titleLayout>LMC</titleLayout>
+    <titleLayout>LIMC</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
