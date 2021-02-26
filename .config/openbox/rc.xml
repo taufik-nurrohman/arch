@@ -115,12 +115,12 @@
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
-    <keybind key="W-f">
+    <keybind key="W-b">
       <action name="Execute">
         <command>firefox</command>
       </action>
     </keybind>
-    <keybind key="W-e">
+    <keybind key="W-f">
       <action name="Execute">
         <command>pcmanfm</command>
       </action>
@@ -147,6 +147,9 @@
           <action name="Unshade"/>
         </finalactions>
       </action>
+    </keybind>
+    <keybind key="A-Return">
+      <action name="ToggleMaximizeFull"/>
     </keybind>
   </keyboard>
   <mouse>

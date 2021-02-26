@@ -10,9 +10,9 @@ Dependencies
  - `feh` → To add desktop wallpaper.
  - `openbox` → The window manager.
  - `openbox-menu` → The context menu manager.
+ - `pcmanfm` → The file explorer.
  - `tint2` → The task bar.
  - `vim` → The code editor.
- - `xfe` → The file manager.
  - `xterm` → The terminal emulator.
 
 Optional Dependencies
