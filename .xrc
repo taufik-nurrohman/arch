@@ -1,12 +1,15 @@
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.hinting: 1
+Xft.hintstyle: hintnone
+Xft.rgba: rgb
+
 XTerm.vt100.utf8: true
 XTerm.vt100.title: Terminal
-
 XTerm.vt100.faceName: DejaVu Sans Mono
 XTerm.vt100.faceSize: 9
-
 XTerm.vt100.scrollBar: false
 XTerm.vt100.scrollTtyOutput: false
-
 XTerm.vt100.saveLines: 10000
 
 ! Terminal column, row, left, top
