@@ -130,6 +130,9 @@
         <command>xterm</command>
       </action>
     </keybind>
+    <keybind key="W-Return">
+      <action name="ToggleMaximizeFull"/>
+    </keybind>
     <keybind key="A-S-Tab">
       <action name="PreviousWindow">
         <finalactions>
@@ -147,9 +150,6 @@
           <action name="Unshade"/>
         </finalactions>
       </action>
-    </keybind>
-    <keybind key="A-Return">
-      <action name="ToggleMaximizeFull"/>
     </keybind>
   </keyboard>
   <mouse>

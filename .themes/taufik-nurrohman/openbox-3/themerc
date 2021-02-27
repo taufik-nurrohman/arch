@@ -12,12 +12,14 @@ menu.separator.padding.height: 4
 menu.separator.padding.width: 0
 menu.separator.width: 1
 menu.title.bg.color: #000000
-menu.title.text.color: #eeeeee
+menu.title.text.color: #bbbbbb
 menu.title.text.justify: left
 padding.height: 4
 padding.width: 4
+window.active.button.disabled.image.color: #666666
 window.active.button.hover.image.color: #eeeeee
 window.active.button.pressed.image.color: #999999
+window.active.button.toggled.disabled.image.color: #666666
 window.active.button.toggled.hover.image.color: #eeeeee
 window.active.button.toggled.image.color: #bbbbbb
 window.active.button.unpressed.image.color: #bbbbbb
