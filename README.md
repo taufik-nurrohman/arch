@@ -8,6 +8,7 @@ Dependencies
 
  - `compton` → To add shadow under windows.
  - `feh` → To add desktop wallpaper.
+ - `gmrun` → The task runner.
  - `openbox` → The window manager.
  - `openbox-menu` → The context menu manager.
  - `pcmanfm` → The file explorer.
@@ -27,13 +28,21 @@ My Keyboard Shortcuts
 
 Keys | Description
 ---- | -----------
-<kbd>⊞ Win</kbd> <kbd>b</kbd> | Open web browser.
+<kbd>⊞ Win</kbd> <kbd>c</kbd> | Close window.
 <kbd>⊞ Win</kbd> <kbd>d</kbd> | Toggle desktop.
-<kbd>⊞ Win</kbd> <kbd>f</kbd> | Open file explorer.
+<kbd>⊞ Win</kbd> <kbd>i</kbd> | Minimize window.
+<kbd>⊞ Win</kbd> <kbd>m</kbd> | Toggle maximize window.
+<kbd>⊞ Win</kbd> <kbd>n</kbd> | Create a `note.md` file using Vim.
+<kbd>⊞ Win</kbd> <kbd>s</kbd> | Toggle shade window.
 <kbd>⊞ Win</kbd> <kbd>t</kbd> | Open terminal.
-<kbd>⊞ Win</kbd> <kbd>←</kbd> | Switch to the left work space if available.
-<kbd>⊞ Win</kbd> <kbd>→</kbd> | Switch to the right work space if available.
-<kbd>⊞ Win</kbd> <kbd>↵</kbd> | Toggle maximize.
+<kbd>⊞ Win</kbd> <kbd>←</kbd> | Move window to the left and resize its width to 50%, height to 100%.
+<kbd>⊞ Win</kbd> <kbd>↑</kbd> | Move window to the top and resize its width to 100%, height to 50%.
+<kbd>⊞ Win</kbd> <kbd>→</kbd> | Move window to the right and resize its width to 50%, height to 100%.
+<kbd>⊞ Win</kbd> <kbd>↓</kbd> | Move window to the bottom and resize its width to 100%, height to 50%.
+<kbd>⊞ Win</kbd> <kbd>↵</kbd> | Toggle maximize window.
+<kbd>⊞ Win</kbd> <kbd>⇥</kbd> | Focus to the next window.
+<kbd>⊞ Win</kbd> <kbd>⇧</kbd> <kbd>⇥</kbd> | Focus to the previous window.
+<kbd>⌥</kbd> <kbd>↵</kbd> | Toggle full screen window.
 
 Notes
 -----

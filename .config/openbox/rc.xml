@@ -99,31 +99,92 @@
     <moveButton>Middle</moveButton>
   </dock>
   <keyboard>
-    <chainQuitKey>C-w</chainQuitKey>
+    <chainQuitKey>C-g</chainQuitKey>
+    <keybind key="A-Return">
+      <action name="ToggleFullScreen"/>
+    </keybind>
+    <keybind key="W-Tab">
+      <action name="NextWindow">
+        <raise>yes</raise>
+      </action>
+    </keybind>
+    <keybind key="W-S-Tab">
+      <action name="PreviousWindow">
+        <raise>yes</raise>
+      </action>
+    </keybind>
     <keybind key="W-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <height>100%</height>
+        <width>50%</width>
+        <x>0</x>
+        <y>center</y>
+      </action>
+    </keybind>
+    <keybind key="W-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <height>100%</height>
+        <width>50%</width>
+        <x>-0</x>
+        <y>center</y>
+      </action>
+    </keybind>
+    <keybind key="W-Up">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <height>50%</height>
+        <width>100%</width>
+        <x>center</x>
+        <y>0</y>
+      </action>
+    </keybind>
+    <keybind key="W-Down">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <height>50%</height>
+        <width>100%</width>
+        <x>center</x>
+        <y>-0</y>
+      </action>
+    </keybind>
+    <keybind key="W-A-Left">
       <action name="GoToDesktop">
         <to>left</to>
         <wrap>no</wrap>
       </action>
     </keybind>
-    <keybind key="W-Right">
+    <keybind key="W-A-Right">
       <action name="GoToDesktop">
         <to>right</to>
         <wrap>no</wrap>
       </action>
     </keybind>
+    <keybind key="W-c">
+      <action name="Close"/>
+    </keybind>
     <keybind key="W-d">
       <action name="ToggleShowDesktop"/>
     </keybind>
-    <keybind key="W-b">
+    <keybind key="W-i">
+      <action name="Iconify"/>
+    </keybind>
+    <keybind key="W-m">
+      <action name="ToggleMaximizeFull"/>
+    </keybind>
+    <keybind key="W-n">
       <action name="Execute">
-        <command>firefox</command>
+        <command>xterm -e vim note.md</command>
       </action>
     </keybind>
-    <keybind key="W-f">
+    <keybind key="W-r">
       <action name="Execute">
-        <command>pcmanfm</command>
+        <command>gmrun</command>
       </action>
+    </keybind>
+    <keybind key="W-s">
+      <action name="ToggleShade"/>
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
@@ -132,24 +193,6 @@
     </keybind>
     <keybind key="W-Return">
       <action name="ToggleMaximizeFull"/>
-    </keybind>
-    <keybind key="A-S-Tab">
-      <action name="PreviousWindow">
-        <finalactions>
-          <action name="Focus"/>
-          <action name="Raise"/>
-          <action name="Unshade"/>
-        </finalactions>
-      </action>
-    </keybind>
-    <keybind key="A-Tab">
-      <action name="NextWindow">
-        <finalactions>
-          <action name="Focus"/>
-          <action name="Raise"/>
-          <action name="Unshade"/>
-        </finalactions>
-      </action>
     </keybind>
   </keyboard>
   <mouse>
@@ -176,16 +219,6 @@
       <mousebind button="A-Right" action="Drag">
         <action name="Resize"/>
       </mousebind>
-      <mousebind button="A-Up" action="Click">
-        <action name="GoToDesktop">
-          <to>previous</to>
-        </action>
-      </mousebind>
-      <mousebind button="A-Down" action="Click">
-        <action name="GoToDesktop">
-          <to>next</to>
-        </action>
-      </mousebind>
     </context>
     <context name="Titlebar">
       <mousebind button="Left" action="Drag">
@@ -193,26 +226,6 @@
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
         <action name="ToggleMaximizeFull"/>
-      </mousebind>
-      <mousebind button="Up" action="Click">
-        <action name="if">
-          <shaded>no</shaded>
-          <then>
-            <action name="Shade"/>
-            <action name="FocusToBottom"/>
-            <action name="Unfocus"/>
-            <action name="Lower"/>
-          </then>
-        </action>
-      </mousebind>
-      <mousebind button="Down" action="Click">
-        <action name="if">
-          <shaded>yes</shaded>
-          <then>
-            <action name="Unshade"/>
-            <action name="Raise"/>
-          </then>
-        </action>
       </mousebind>
     </context>
     <context name="Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner">
@@ -229,13 +242,6 @@
         </action>
       </mousebind>
     </context>
-    <context name="Top">
-      <mousebind button="Left" action="Drag">
-        <action name="Resize">
-          <edge>top</edge>
-        </action>
-      </mousebind>
-    </context>
     <context name="Left">
       <mousebind button="Left" action="Drag">
         <action name="Resize">
@@ -247,6 +253,13 @@
       <mousebind button="Left" action="Drag">
         <action name="Resize">
           <edge>right</edge>
+        </action>
+      </mousebind>
+    </context>
+    <context name="Top">
+      <mousebind button="Left" action="Drag">
+        <action name="Resize">
+          <edge>top</edge>
         </action>
       </mousebind>
     </context>
