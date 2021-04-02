@@ -1,3 +1,4 @@
 compton &
-feh --bg-fill --no-fehbg ~/wall.jpg &
+feh --bg-fill ~/wall.jpg &
 tint2 &
+volti &

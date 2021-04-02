@@ -14,6 +14,7 @@ Dependencies
  - `pcmanfm` → The file explorer.
  - `tint2` → The task bar.
  - `vim` → The code editor.
+ - `volti` → To add volume icon in system tray.
  - `xterm` → The terminal emulator.
 
 Optional Dependencies
