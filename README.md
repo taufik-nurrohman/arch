@@ -48,7 +48,7 @@ Keys | Description
 Notes
 -----
 
-Think of this project as your home folder. Configuration files are intended only to decorate the `openbox` and `tint2` (and also to set the wallpaper). Application styles are mostly not handled by these files. You have to find the right theme to be combined with this dark color scheme. I would recommend [Equilux](https://www.opendesktop.org/s/Gnome/p/1182169) for the theme and [Tela Dark](https://www.opendesktop.org/s/Gnome/p/1279924) for the icons.
+Think of this project as your home folder. Configuration files are intended only to decorate the `openbox` and `tint2` (and also to set the wallpaper). Application styles are mostly not handled by these files. You have to find the right theme to be combined with this dark color scheme. I would recommend [Material](https://www.opendesktop.org/s/Gnome/p/1316887) or [Equilux](https://www.opendesktop.org/s/Gnome/p/1182169) for the theme and [Tela Dark](https://www.opendesktop.org/s/Gnome/p/1279924) for the icons.
 
 Copy and paste the files to your home folder.
 
