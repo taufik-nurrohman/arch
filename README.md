@@ -8,6 +8,7 @@ Dependencies
 
  - `archlinux-xdg-menu` → To generate the applications menu.
  - `gmrun` → The task runner.
+ - `network-manager-applet` → To add network manager icon in system tray.
  - `openbox` → The window manager.
  - `pcmanfm` → The file explorer.
  - `picom` → To add shadow under windows.

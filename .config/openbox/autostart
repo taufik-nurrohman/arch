@@ -1,3 +1,4 @@
+nm-applet &
 pcmanfm --desktop &
 picom &
 tint2 &
