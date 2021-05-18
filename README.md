@@ -7,6 +7,7 @@ Dependencies
 ------------
 
  - `archlinux-xdg-menu` → To generate the applications menu.
+ - `gmrun` → The task runner.
  - `openbox` → The window manager.
  - `pcmanfm` → The file explorer.
  - `picom` → To add shadow under windows.
