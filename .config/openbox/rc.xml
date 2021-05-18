@@ -103,6 +103,16 @@
     <keybind key="A-Return">
       <action name="ToggleFullScreen"/>
     </keybind>
+    <keybind key="Print">
+      <action name="Execute">
+        <command>scrot --border --delay 5 --exec='mkdir -p ~/Picture/Capture &amp;&amp; mv $f ~/Picture/Capture/$n &amp;&amp; pcmanfm ~/Picture/Capture' --freeze --pointer --quality 100</command>
+      </action>
+    </keybind>
+    <keybind key="W-Print">
+      <action name="Execute">
+        <command>scrot --border --delay 1 --exec='mkdir -p ~/Picture/Capture &amp;&amp; mv $f ~/Picture/Capture/$n &amp;&amp; pcmanfm ~/Picture/Capture' --freeze --quality 100 --select</command>
+      </action>
+    </keybind>
     <keybind key="W-Tab">
       <action name="NextWindow">
         <raise>yes</raise>

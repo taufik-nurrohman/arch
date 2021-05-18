@@ -12,6 +12,8 @@ Dependencies
  - `openbox` → The window manager.
  - `pcmanfm` → The file explorer.
  - `picom` → To add shadow under windows.
+ - `qutebrowser` → The web browser.
+ - `scrot` → The screen capture utility.
  - `tint2` → The task bar.
  - `vim` → The code editor.
  - `volumeicon` → To add volume icon in system tray.
@@ -23,7 +25,6 @@ Optional Dependencies
  - `alsa-utils` → This contains (among other utilities) the `alsamixer` and `amixer` utilities for `volumeicon`.
  - `firefox` → The full featured web browser. Average users would need it anyway.
  - `onboard` → The on screen keyboard.
- - `qutebrowser` → The web browser.
  - `vlc` → The video player.
  - `xarchiver` → Archiving and compression tools (also, don&rsquo;t forget to install `gzip`, `rar`, `unrar`, `unzip`, and `zip`).
 
@@ -32,6 +33,8 @@ My Keyboard Shortcuts
 
 Keys | Description
 ---- | -----------
+<kbd>Print</kbd> | Capture the whole screen (wait for 5 seconds).
+<kbd>⊞ Win</kbd> <kbd>Print</kbd> | Capture screen by mouse click or mouse selection (wait for 1 second after mouse release).
 <kbd>⊞ Win</kbd> <kbd>c</kbd> | Close window.
 <kbd>⊞ Win</kbd> <kbd>d</kbd> | Toggle desktop.
 <kbd>⊞ Win</kbd> <kbd>i</kbd> | Minimize window.

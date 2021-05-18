@@ -3,7 +3,7 @@
   <menu id="root-menu" label="Menus">
     <item label="Browser">
       <action name="Execute">
-        <execute>firefox</execute>
+        <execute>qutebrowser</execute>
       </action>
     </item>
     <item label="Files">
