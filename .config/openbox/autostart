@@ -1,4 +1,4 @@
-compton &
-feh --bg-fill ~/wall.jpg &
+pcmanfm --desktop &
+picom &
 tint2 &
-volti &
+volumeicon &

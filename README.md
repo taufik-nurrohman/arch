@@ -6,23 +6,14 @@ My Minimalist Desk Setup
 Dependencies
 ------------
 
- - `compton` → To add shadow under windows.
- - `feh` → To add desktop wallpaper.
- - `gmrun` → The task runner.
+ - `archlinux-xdg-menu` → To generate the applications menu.
  - `openbox` → The window manager.
- - `openbox-menu` → The context menu manager.
  - `pcmanfm` → The file explorer.
+ - `picom` → To add shadow under windows.
  - `tint2` → The task bar.
  - `vim` → The code editor.
- - `volti` → To add volume icon in system tray.
+ - `volumeicon` → To add volume icon in system tray.
  - `xterm` → The terminal emulator.
-
-Optional Dependencies
----------------------
-
- - `obconf`
- - `obmenu`
- - `tint2conf`
 
 My Keyboard Shortcuts
 ---------------------

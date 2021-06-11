@@ -386,7 +386,7 @@
     <context name="Root">
       <mousebind button="Right" action="Press">
         <action name="ShowMenu">
-          <menu>lot</menu>
+          <menu>root-menu</menu>
         </action>
       </mousebind>
     </context>
@@ -409,7 +409,7 @@
     <middle>no</middle>
     <submenuShowDelay>100</submenuShowDelay>
     <submenuHideDelay>200</submenuHideDelay>
-    <showIcons>yes</showIcons>
+    <showIcons>no</showIcons>
     <manageDesktops>yes</manageDesktops>
   </menu>
   <applications>
