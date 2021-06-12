@@ -1,28 +1,35 @@
 #!/bin/sh
 
-SYSTEM_RESOURCES=/etc/X11/xinit/.Xresources
-SYSTEM_MODMAP=/etc/X11/xinit/.Xmodmap
+SYS_MODMAP=/etc/X11/xinit/.Xmodmap
+SYS_RESOURCES=/etc/X11/xinit/.Xresources
 
-USER_RESOURCES=$HOME/.xrc
+USR_MODMAP=$HOME/.xinit/.Xmodmap
+USR_RESOURCES=$HOME/.xinit/.Xresources
 
-if [ -f "$SYSTEM_MODMAP" ]; then
-    xmodmap "$SYSTEM_MODMAP"
+if [ -f "$SYS_MODMAP" ];
+then
+    xmodmap "$SYS_MODMAP"
 fi
 
-if [ -f "$SYSTEM_RESOURCES" ]; then
-    xrdb -merge "$SYSTEM_RESOURCES"
+if [ -f "$SYS_RESOURCES" ];
+then
+    xrdb -merge "$SYS_RESOURCES"
 fi
 
-if [ -f "$USER_RESOURCES" ]; then
-    xrdb -merge "$USER_RESOURCES"
+if [ -f "$USR_MODMAP" ];
+then
+    xmodmap "$USR_MODMAP"
 fi
 
-if [ -f "$USER_MODMAP" ]; then
-    xmodmap "$USER_MODMAP"
+if [ -f "$USR_RESOURCES" ];
+then
+    xrdb -merge "$USR_RESOURCES"
 fi
 
-if [ -d /etc/X11/xinit/xinitrc.d ]; then
-    for f in /etc/X11/xinit/xinitrc.d/?*.sh; do
+if [ -d /etc/X11/xinit/xinitrc.d ];
+then
+    for f in /etc/X11/xinit/xinitrc.d/?*.sh;
+    do
         [ -x $f ] && . $f
     done
     unset f

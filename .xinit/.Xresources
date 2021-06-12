@@ -4,13 +4,14 @@ Xft.hinting: 1
 Xft.hintstyle: hintnone
 Xft.rgba: rgb
 
-*.vt100.utf8: true
-*.vt100.title: Terminal
+*.vt100.cursorBlink: true
 *.vt100.faceName: DejaVu Sans Mono
 *.vt100.faceSize: 9
+*.vt100.saveLines: 10000
 *.vt100.scrollBar: false
 *.vt100.scrollTtyOutput: false
-*.vt100.saveLines: 10000
+*.vt100.title: Terminal
+*.vt100.utf8: true
 
 ! Terminal column, row, left, top
 *.vt100.geometry: 90x30+30+30

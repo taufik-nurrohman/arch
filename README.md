@@ -15,6 +15,16 @@ Dependencies
  - `volumeicon` → To add volume icon in system tray.
  - `xterm` → The terminal emulator.
 
+Optional Dependencies
+---------------------
+
+ - `alsa-utils` → This contains (among other utilities) the `alsamixer` and `amixer` utilities for `volumeicon`.
+ - `firefox` → The full featured web browser. Average users would need it anyway.
+ - `onboard` → The on screen keyboard.
+ - `qutebrowser` → The web browser.
+ - `vlc` → The video player.
+ - `xarchiver` → Archiving and compression tools (also, don&rsquo;t forget to install `gzip`, `rar`, `unrar`, `unzip`, and `zip`).
+
 My Keyboard Shortcuts
 ---------------------
 
