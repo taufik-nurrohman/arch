@@ -6,15 +6,64 @@
 
 config_version: 2
 settings:
+  aliases:
+    global:
+      q: close
+      qa: quit
+      w: session-save
+      wq: quit --save
+      wqa: quit --save
+  colors.completion.category.bg:
+    global: 'qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #111111, stop:1 #000000)'
+  colors.completion.category.border.bottom:
+    global: black
+  colors.completion.even.bg:
+    global: '#111111'
   colors.completion.fg:
     global:
     - white
     - white
     - white
   colors.completion.item.selected.bg:
-    global: '#e8c000'
+    global: '#222222'
+  colors.completion.item.selected.border.bottom:
+    global: '#222222'
+  colors.completion.item.selected.border.top:
+    global: '#222222'
+  colors.completion.item.selected.match.fg:
+    global: '#888888'
+  colors.completion.match.fg:
+    global: '#888888'
+  colors.completion.odd.bg:
+    global: black
+  colors.completion.scrollbar.bg:
+    global: black
+  colors.statusbar.command.private.bg:
+    global: darkslategray
+  colors.statusbar.insert.bg:
+    global: black
+  colors.statusbar.passthrough.bg:
+    global: black
+  colors.tabs.bar.bg:
+    global: black
+  colors.tabs.even.bg:
+    global: black
+  colors.tabs.even.fg:
+    global: white
+  colors.tabs.odd.bg:
+    global: black
+  colors.tabs.pinned.even.bg:
+    global: black
+  colors.tabs.pinned.odd.bg:
+    global: black
   fileselect.handler:
     global: default
+  fonts.completion.category:
+    global: 8pt DejaVu Sans
+  fonts.completion.entry:
+    global: 8pt DejaVu Sans
+  fonts.debug_console:
+    global: 8pt DejaVu Sans
   fonts.default_family:
     global: DejaVu Serif
   fonts.default_size:
@@ -36,7 +85,7 @@ settings:
   fonts.statusbar:
     global: 8pt DejaVu Sans
   fonts.tabs.selected:
-    global: 8pt DejaVu Sans
+    global: bold 8pt DejaVu Sans
   fonts.tabs.unselected:
     global: 8pt DejaVu Sans
   fonts.web.family.fantasy:
@@ -54,13 +103,17 @@ settings:
   qt.highdpi:
     global: true
   scrolling.smooth:
-    global: true
+    global: false
   statusbar.padding:
     global:
-      bottom: 0
-      left: 0
-      right: 0
-      top: 0
+      bottom: 5
+      left: 5
+      right: 5
+      top: 5
+  statusbar.position:
+    global: bottom
+  statusbar.show:
+    global: always
   tabs.indicator.padding:
     global:
       bottom: 0
@@ -83,7 +136,7 @@ settings:
     global: about:blank
   url.searchengines:
     global:
-      DEFAULT: https://google.com/search?q={}
+      DEFAULT: https://google.com/search?q={quoted}
   url.start_pages:
     global: about:blank
   window.hide_decoration:

@@ -1,5 +1,5 @@
+feh --bg-fill ~/autumn.jpg
 nm-applet &
-pcmanfm --desktop &
 picom &
 tint2 &
 volumeicon &

@@ -8,7 +8,7 @@
     </item>
     <item label="Files">
       <action name="Execute">
-        <execute>pcmanfm</execute>
+        <execute>thunar</execute>
       </action>
     </item>
     <item label="Terminal">
