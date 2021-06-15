@@ -1,5 +1,10 @@
 feh --bg-fill ~/autumn.jpg
-nm-applet &
 picom &
 tint2 &
-volumeicon &
+(
+    sleep 3s &&
+    (
+        nm-applet &
+        volumeicon
+    )
+)

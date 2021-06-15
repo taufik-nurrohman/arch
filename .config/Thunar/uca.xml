@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
   <action>
+    <icon>application-x-zip</icon>
+    <name>Extract Here</name>
+    <unique-id>1623734236498547-1</unique-id>
+    <command>xarchiver --extract-to=%d</command>
+    <description>Extract package here.</description>
+    <patterns>*.zip</patterns>
+    <other-files/>
+  </action>
+  <action>
+    <icon>application-x-zip</icon>
+    <name>Extract to...</name>
+    <unique-id>1623734634874224-2</unique-id>
+    <command>xarchiver --extract=%f %n</command>
+    <description>Extract package to a specific location.</description>
+    <patterns>*.zip</patterns>
+    <other-files/>
+  </action>
+  <action>
     <icon>utilities-terminal</icon>
     <name>Open Terminal Here</name>
     <unique-id>1623428989071055-1</unique-id>
-    <command>exo-open --working-directory %f --launch TerminalEmulator</command>
-    <description>Example for a custom action</description>
+    <command>xterm</command>
+    <description>Open folder in terminal.</description>
     <patterns>*</patterns>
-    <startup-notify/>
     <directories/>
   </action>
 </actions>

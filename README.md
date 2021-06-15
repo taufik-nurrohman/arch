@@ -1,11 +1,11 @@
 My Minimalist Desk Setup
 ========================
 
-![Screen Capture](https://user-images.githubusercontent.com/1669261/121839220-d3fb7480-cd03-11eb-81e1-53a375c1688c.png)
+![Screen Capture 2021-06-15 12:00:18 (1024x600)](https://user-images.githubusercontent.com/1669261/121998326-e6de7980-cdd5-11eb-8973-99093c208595.png)
 
-![Screen Capture](https://user-images.githubusercontent.com/1669261/121839251-d9f15580-cd03-11eb-956b-2db65610eba2.png)
+![Screen Capture 2021-06-15 12:02:40 (1024x600)](https://user-images.githubusercontent.com/1669261/121998333-e8a83d00-cdd5-11eb-9387-a3a6ccc7a126.png)
 
-![Screen Capture](https://user-images.githubusercontent.com/1669261/121839263-dcec4600-cd03-11eb-97dc-336d2d678606.png)
+![Screen Capture 2021-06-15 12:06:42 (1024x600)](https://user-images.githubusercontent.com/1669261/121998341-ea720080-cdd5-11eb-980f-bf59ffb6c1c8.png)
 
 Dependencies
 ------------

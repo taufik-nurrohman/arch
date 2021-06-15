@@ -13,6 +13,7 @@
 ; (gtk_accel_path "<Actions>/ThunarLauncher/open" "<Primary>o")
 ; (gtk_accel_path "<Actions>/ThunarWindow/reload" "<Primary>r")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-side-pane-menu" "")
+(gtk_accel_path "<Actions>/ThunarActions/uca-action-1623428989071055-1" "F4")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-network" "")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/cab8e05990a8323a1b81e19940925408" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/contents/help-menu" "")
