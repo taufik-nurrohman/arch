@@ -46,6 +46,7 @@ Keys | Description
 <kbd>⊞ Win</kbd> <kbd>i</kbd> | Minimize window.
 <kbd>⊞ Win</kbd> <kbd>m</kbd> | Toggle maximize window.
 <kbd>⊞ Win</kbd> <kbd>n</kbd> | Create a `note.md` file using Vim.
+<kbd>⊞ Win</kbd> <kbd>r</kbd> | Run a command.
 <kbd>⊞ Win</kbd> <kbd>s</kbd> | Toggle shade window.
 <kbd>⊞ Win</kbd> <kbd>t</kbd> | Open terminal.
 <kbd>⊞ Win</kbd> <kbd>←</kbd> | Move window to the left and resize its width to 50%, height to 100%.
