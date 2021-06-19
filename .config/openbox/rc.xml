@@ -113,6 +113,11 @@
         <command>scrot --border --delay 10 --exec='mkdir -p ~/Picture/Capture &amp;&amp; mv $f ~/Picture/Capture/$n &amp;&amp; thunar ~/Picture/Capture' --freeze --quality 100</command>
       </action>
     </keybind>
+    <keybind key="C-Return">
+      <action name="Execute">
+        <command>xterm</command>
+      </action>
+    </keybind>
     <keybind key="W-Print">
       <action name="Execute">
         <command>scrot --border --delay 1 --exec='mkdir -p ~/Picture/Capture &amp;&amp; mv $f ~/Picture/Capture/$n &amp;&amp; thunar ~/Picture/Capture' --freeze --quality 100 --select</command>
