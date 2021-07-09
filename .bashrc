@@ -30,3 +30,5 @@ title
 
 # Colorize the `user@host` part
 PS1='\[$(tput bold)\]\[$(tput setaf 2)\]\u@\h\[$(tput setaf 7)\]:\[$(tput setaf 4)\]\w\[$(tput sgr0)\]\$ '
+
+export TERM='xterm-256color'

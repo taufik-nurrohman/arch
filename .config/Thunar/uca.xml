@@ -4,7 +4,7 @@
     <icon>application-x-zip</icon>
     <name>Extract Here</name>
     <unique-id>1623734236498547-1</unique-id>
-    <command>xarchiver --extract-to=%d</command>
+    <command>xarchiver --extract-to=%d %n</command>
     <description>Extract package here.</description>
     <patterns>*.zip</patterns>
     <other-files/>
