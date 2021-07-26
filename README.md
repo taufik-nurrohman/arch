@@ -32,6 +32,7 @@ Optional Dependencies
  - `alsa-utils` → This contains (among other utilities) the `alsamixer` and `amixer` utilities for `volumeicon`.
  - `firefox` → The full featured web browser. Average users would need it anyway.
  - `onboard` → The on screen keyboard.
+ - `thunar-archive-plugin` → To add archiving tasks in the context menu.
  - `vlc` → The video player.
  - `xarchiver` → Archiving and compression tools (also, don&rsquo;t forget to install `gzip`, `rar`, `unrar`, `unzip`, and `zip`).
 
