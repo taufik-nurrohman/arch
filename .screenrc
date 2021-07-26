@@ -2,6 +2,7 @@ altscreen on
 attrcolor b '.I'
 autodetach on
 defbce 'on'
+maptimeout 5
 shell 'bash'
 startup_message off
 vbell off

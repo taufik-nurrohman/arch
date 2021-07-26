@@ -11,7 +11,7 @@ Dependencies
 ------------
 
  - `archlinux-xdg-menu` → To generate the applications menu.
- - `bdf-unifont` → To add unicode fonts fallback.
+ - `adobe-source-han-sans-otc-fonts`, `bdf-unifont` → To add unicode fonts fallback.
  - `feh` → The image viewer and to add the wallpaper.
  - `gmrun` → The task runner.
  - `network-manager-applet` → To add network manager icon in system tray.
