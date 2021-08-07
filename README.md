@@ -58,6 +58,8 @@ Keys | Description
 <kbd>⊞ Win</kbd> <kbd>↵</kbd> | Toggle maximize window.
 <kbd>⊞ Win</kbd> <kbd>⇥</kbd> | Focus to the next window.
 <kbd>⊞ Win</kbd> <kbd>⇧</kbd> <kbd>⇥</kbd> | Focus to the previous window.
+<kbd>⊞ Win</kbd> <kbd>⌥</kbd> <kbd>←</kbd> | Move to the previous desktop if any.
+<kbd>⊞ Win</kbd> <kbd>⌥</kbd> <kbd>→</kbd> | Move to the next desktop if any.
 <kbd>⌘</kbd> <kbd>Print</kbd> | Capture the whole screen without the pointer (wait for 10 seconds).
 <kbd>⌥</kbd> <kbd>↵</kbd> | Toggle full screen window.
 
