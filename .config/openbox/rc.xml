@@ -61,15 +61,16 @@
     </font>
   </theme>
   <desktops>
-    <number>4</number>
+    <number>5</number>
     <firstdesk>1</firstdesk>
     <names>
       <name>1</name>
       <name>2</name>
       <name>3</name>
       <name>4</name>
+      <name>5</name>
     </names>
-    <popupTime>875</popupTime>
+    <popupTime>500</popupTime>
   </desktops>
   <resize>
     <drawContents>yes</drawContents>
@@ -258,7 +259,7 @@
   <mouse>
     <dragThreshold>1</dragThreshold>
     <doubleClickTime>500</doubleClickTime>
-    <screenEdgeWarpTime>0</screenEdgeWarpTime>
+    <screenEdgeWarpTime>500</screenEdgeWarpTime>
     <screenEdgeWarpMouse>false</screenEdgeWarpMouse>
     <context name="Frame">
       <mousebind button="A-Left" action="Press">
