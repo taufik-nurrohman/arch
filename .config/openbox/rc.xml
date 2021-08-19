@@ -100,9 +100,135 @@
   </dock>
   <keyboard>
     <chainQuitKey>C-g</chainQuitKey>
-    <keybind key="A-Return">
+    <!-- Desk Control -->
+    <keybind key="W-d">
+      <action name="ToggleShowDesktop"/>
+    </keybind>
+    <keybind key="W-C-d">
+      <action name="AddDesktop">
+        <where>current</where>
+      </action>
+      <action name="GoToDesktop">
+        <to>next</to>
+      </action>
+    </keybind>
+    <keybind key="W-C-F4">
+      <action name="RemoveDesktop">
+        <where>current</where>
+      </action>
+    </keybind>
+    <!-- Desk Cycle -->
+    <keybind key="W-C-Left">
+      <action name="GoToDesktop">
+        <to>left</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+    <keybind key="W-C-Right">
+      <action name="GoToDesktop">
+        <to>right</to>
+        <wrap>no</wrap>
+      </action>
+    </keybind>
+    <!-- Window Cycle -->
+    <keybind key="A-Tab">
+      <action name="NextWindow">
+        <raise>yes</raise>
+      </action>
+    </keybind>
+    <keybind key="A-S-Tab">
+      <action name="PreviousWindow">
+        <raise>yes</raise>
+      </action>
+    </keybind>
+    <!-- Window Resize -->
+    <keybind key="W-Down">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <height>50%</height>
+        <width>100%</width>
+        <x>center</x>
+        <y>-0</y>
+      </action>
+    </keybind>
+    <keybind key="W-Left">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <height>100%</height>
+        <width>50%</width>
+        <x>0</x>
+        <y>center</y>
+      </action>
+    </keybind>
+    <keybind key="W-Right">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <height>100%</height>
+        <width>50%</width>
+        <x>-0</x>
+        <y>center</y>
+      </action>
+    </keybind>
+    <keybind key="W-Up">
+      <action name="Unmaximize"/>
+      <action name="MoveResizeTo">
+        <height>50%</height>
+        <width>100%</width>
+        <x>center</x>
+        <y>0</y>
+      </action>
+    </keybind>
+    <keybind key="W-Return">
+      <action name="If">
+        <query>
+          <maximized>yes</maximized>
+        </query>
+        <then>
+          <action name="Unmaximize"/>
+          <action name="MoveResizeTo">
+            <height>75%</height>
+            <width>75%</width>
+            <x>center</x>
+            <y>center</y>
+          </action>
+        </then>
+        <else>
+          <action name="Maximize"/>
+        </else>
+      </action>
+    </keybind>
+    <keybind key="F11">
       <action name="ToggleFullScreen"/>
     </keybind>
+    <!-- Window Control -->
+    <keybind key="A-F4">
+      <action name="Close"/>
+    </keybind>
+    <keybind key="W-Home">
+      <action name="ForEach">
+        <query>
+          <desktop>current</desktop>
+          <focused>false</focused>
+        </query>
+        <then>
+          <action name="Iconify"/>
+        </then>
+      </action>
+    </keybind>
+    <keybind key="W-m">
+      <action name="ForEach">
+        <query>
+          <desktop>current</desktop>
+        </query>
+        <then>
+          <action name="Iconify"/>
+        </then>
+      </action>
+    </keybind>
+    <!-- <keybind key="W-S-m"> -->
+    <!--   <action name="Uniconify"/> -->
+    <!-- </keybind> -->
+    <!-- Utility -->
     <keybind key="Print">
       <action name="Execute">
         <command>scrot --border --delay 10 --exec='mkdir -p ~/Picture/Capture &amp;&amp; mv $f ~/Picture/Capture/$n &amp;&amp; thunar ~/Picture/Capture' --freeze --pointer --quality 100</command>
@@ -118,96 +244,15 @@
         <command>scrot --border --delay 1 --exec='mkdir -p ~/Picture/Capture &amp;&amp; mv $f ~/Picture/Capture/$n &amp;&amp; thunar ~/Picture/Capture' --freeze --quality 100 --select</command>
       </action>
     </keybind>
-    <keybind key="W-Tab">
-      <action name="NextWindow">
-        <raise>yes</raise>
-      </action>
-    </keybind>
-    <keybind key="W-S-Tab">
-      <action name="PreviousWindow">
-        <raise>yes</raise>
-      </action>
-    </keybind>
-    <keybind key="W-Left">
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo">
-        <height>100%</height>
-        <width>50%</width>
-        <x>0</x>
-        <y>center</y>
-      </action>
-    </keybind>
-    <keybind key="W-Right">
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo">
-        <height>100%</height>
-        <width>50%</width>
-        <x>-0</x>
-        <y>center</y>
-      </action>
-    </keybind>
-    <keybind key="W-Up">
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo">
-        <height>50%</height>
-        <width>100%</width>
-        <x>center</x>
-        <y>0</y>
-      </action>
-    </keybind>
-    <keybind key="W-Down">
-      <action name="UnmaximizeFull"/>
-      <action name="MoveResizeTo">
-        <height>50%</height>
-        <width>100%</width>
-        <x>center</x>
-        <y>-0</y>
-      </action>
-    </keybind>
-    <keybind key="W-A-Left">
-      <action name="GoToDesktop">
-        <to>left</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="W-A-Right">
-      <action name="GoToDesktop">
-        <to>right</to>
-        <wrap>no</wrap>
-      </action>
-    </keybind>
-    <keybind key="W-c">
-      <action name="Close"/>
-    </keybind>
-    <keybind key="W-d">
-      <action name="ToggleShowDesktop"/>
-    </keybind>
-    <keybind key="W-i">
-      <action name="Iconify"/>
-    </keybind>
-    <keybind key="W-m">
-      <action name="ToggleMaximizeFull"/>
-    </keybind>
-    <keybind key="W-n">
-      <action name="Execute">
-        <command>xterm -e vim note.md</command>
-      </action>
-    </keybind>
     <keybind key="W-r">
       <action name="Execute">
         <command>gmrun</command>
       </action>
     </keybind>
-    <keybind key="W-s">
-      <action name="ToggleShade"/>
-    </keybind>
     <keybind key="W-t">
       <action name="Execute">
         <command>xterm</command>
       </action>
-    </keybind>
-    <keybind key="W-Return">
-      <action name="ToggleMaximizeFull"/>
     </keybind>
   </keyboard>
   <mouse>
@@ -240,7 +285,7 @@
         <action name="Move"/>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
-        <action name="ToggleMaximizeFull"/>
+        <action name="ToggleMaximize"/>
       </mousebind>
     </context>
     <context name="Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner">
