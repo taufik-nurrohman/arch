@@ -10,10 +10,10 @@ My Minimalist Desk Setup
 Dependencies
 ------------
 
- - `archlinux-xdg-menu` → To generate the applications menu.
  - `adobe-source-han-sans-otc-fonts`, `bdf-unifont` → To add unicode fonts fallback.
+ - `archlinux-xdg-menu` → To generate the applications menu.
+ - `dmenu` → The task runner.
  - `feh` → The image viewer and to add the wallpaper.
- - `gmrun` → The task runner.
  - `network-manager-applet` → To add network manager icon in system tray.
  - `openbox` → The window manager.
  - `picom` → To add shadow under windows.
@@ -46,6 +46,7 @@ Keys | Description
 <kbd>⊞ Win</kbd> <kbd>Home</kbd> | Minimize all windows except the currently focused window.
 <kbd>⊞ Win</kbd> <kbd>Print</kbd> | Capture screen by mouse click or mouse selection (wait for 1 second after mouse release).
 <kbd>⊞ Win</kbd> <kbd>d</kbd> | Toggle desktop.
+<kbd>⊞ Win</kbd> <kbd>e</kbd> | Open file explorer.
 <kbd>⊞ Win</kbd> <kbd>m</kbd> | Minimize all windows.
 <kbd>⊞ Win</kbd> <kbd>r</kbd> | Run a command.
 <kbd>⊞ Win</kbd> <kbd>t</kbd> | Open terminal.
@@ -58,6 +59,7 @@ Keys | Description
 <kbd>⊞ Win</kbd> <kbd>⇧</kbd> <kbd>⇥</kbd> | Focus to the previous window.
 <kbd>⊞ Win</kbd> <kbd>⌘</kbd> <kbd>←</kbd> | Move to the previous desktop if any.
 <kbd>⊞ Win</kbd> <kbd>⌘</kbd> <kbd>→</kbd> | Move to the next desktop if any.
+<kbd>⊞ Win</kbd> <kbd>␣</kbd> | Toggle window decoration.
 <kbd>⌘</kbd> <kbd>Print</kbd> | Capture the whole screen without the pointer (wait for 10 seconds).
 <kbd>⌥</kbd> <kbd>F4</kbd> | Close window.
 
