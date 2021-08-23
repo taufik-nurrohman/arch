@@ -8,6 +8,7 @@ rd() { rmdir "$@"; }
 
 alias la='ls -A --color=auto'
 alias ls='ls --color=auto'
+alias sudo='sudo ' # <https://stackoverflow.com/a/37210013/1163000>
 
 # Function to change the terminal title automatically
 title() {
