@@ -10,7 +10,6 @@ My Minimalist Desk Setup
 Dependencies
 ------------
 
- - `adobe-source-han-sans-otc-fonts`, `bdf-unifont` → To add unicode fonts fallback.
  - `archlinux-xdg-menu` → To generate the applications menu.
  - `dmenu` → The task runner.
  - `feh` → The image viewer and to add the wallpaper.
@@ -29,10 +28,12 @@ Dependencies
 Optional Dependencies
 ---------------------
 
+ - `adobe-source-han-sans-otc-fonts`, `bdf-unifont` → To add unicode fonts fallback.
  - `alsa-utils` → This contains (among other utilities) the `alsamixer` and `amixer` utilities for `volumeicon`.
  - `firefox` → The full featured web browser. Average users would need it anyway.
  - `lxappearance`, `obconf`, `tint2conf` → A utility tools to change the desktop theme and icons.
  - `onboard` → The on screen keyboard.
+ - `terminus-font` → The font used in `xterm`.
  - `thunar-archive-plugin` → To add archiving tasks in the context menu.
  - `vlc` → The video player.
  - `xarchiver` → Archiving and compression tools (also, don&rsquo;t forget to install `gzip`, `rar`, `unrar`, `unzip`, and `zip`).
