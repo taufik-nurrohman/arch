@@ -30,8 +30,8 @@ Optional Dependencies
 ---------------------
 
  - `alsa-utils` → This contains (among other utilities) the `alsamixer` and `amixer` utilities for `volumeicon`.
- - `lxappearance` → A utility tool to change the desktop theme and icons.
  - `firefox` → The full featured web browser. Average users would need it anyway.
+ - `lxappearance`, `obconf`, `tint2conf` → A utility tools to change the desktop theme and icons.
  - `onboard` → The on screen keyboard.
  - `thunar-archive-plugin` → To add archiving tasks in the context menu.
  - `vlc` → The video player.
