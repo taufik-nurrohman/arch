@@ -475,5 +475,8 @@
         <y>center</y>
       </position>
     </application>
+    <application name="netsurf-gtk3">
+      <maximized>true</maximized>
+    </application>
   </applications>
 </openbox_config>
