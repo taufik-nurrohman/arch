@@ -13,10 +13,10 @@ Dependencies
  - `archlinux-xdg-menu` → To generate the applications menu.
  - `dmenu` → The task runner.
  - `feh` → The image viewer and to add the wallpaper.
+ - `netsurf` → The web browser.
  - `network-manager-applet` → To add network manager icon in system tray.
  - `openbox` → The window manager.
  - `picom` → To add shadow under windows.
- - `qutebrowser` → The web browser.
  - `scrot` → The screen capture utility.
  - `thunar` → The file explorer.
  - `tint2` → The task bar.
@@ -30,6 +30,7 @@ Optional Dependencies
 
  - `adobe-source-han-sans-otc-fonts`, `bdf-unifont` → To add unicode fonts fallback.
  - `alsa-utils` → This contains (among other utilities) the `alsamixer` and `amixer` utilities for `volumeicon`.
+ - `drawing` → The &ldquo;paint&rdquo; application.
  - `firefox` → The full featured web browser. Average users would need it anyway.
  - `lxappearance`, `obconf`, `tint2conf` → A utility tools to change the desktop theme and icons.
  - `onboard` → The on screen keyboard.
