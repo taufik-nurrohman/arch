@@ -6,6 +6,10 @@
 md() { mkdir "$@"; }
 rd() { rmdir "$@"; }
 
+alias .....='cd ../../../..'
+alias ....='cd ../../..'
+alias ...='cd ../..'
+alias ..='cd ..'
 alias home='cd $HOME'
 alias la='ls -A --color=auto'
 alias ls='ls --color=auto'
