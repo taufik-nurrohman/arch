@@ -1,6 +1,15 @@
 # If not running interactively, stop!
 [[ $- != *i* ]] && return
 
+# Function to remove `<EOL>`
+e() { find . -type f -not -path '*/\.git/*' -exec perl -pi -e 'chomp if eof' {} '+'; }
+
+# Function to convert `<CR><LF>` to `<LF>`
+n() { find . -type f -not -path '*/\.git/*' -exec grep -qIP '\r\n' {} ';' -exec perl -pi -e 's/\r\n/\n/g' {} '+'; }
+
+# Function to convert `<Tab>` to `<Space><Space><Space><Space>`
+t() { find . -type f -not -path '*/\.git/*' -exec grep -qIP '\t' {} ';' -exec perl -pi -e 's/\t/    /g' {} '+'; }
+
 # Add more aliases to complete the short version of CRUD commands:
 # `cd`, `cp`, `ls`, `md`, `mv`, `rd`, `rm`
 md() { mkdir "$@"; }
