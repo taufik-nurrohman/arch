@@ -59,13 +59,13 @@ Keys | Description
 <kbd>⊞ Win</kbd> <kbd>→</kbd> | Move window to the right and resize its width to 50%, height to 100%.
 <kbd>⊞ Win</kbd> <kbd>↓</kbd> | Move window to the bottom and resize its width to 100%, height to 50%.
 <kbd>⊞ Win</kbd> <kbd>↵</kbd> | Toggle maximize window.
-<kbd>⊞ Win</kbd> <kbd>⇥</kbd> | Focus to the next window.
-<kbd>⊞ Win</kbd> <kbd>⇧</kbd> <kbd>⇥</kbd> | Focus to the previous window.
 <kbd>⊞ Win</kbd> <kbd>⌘</kbd> <kbd>←</kbd> | Move to the previous desktop if any.
 <kbd>⊞ Win</kbd> <kbd>⌘</kbd> <kbd>→</kbd> | Move to the next desktop if any.
 <kbd>⊞ Win</kbd> <kbd>␣</kbd> | Toggle window decoration.
 <kbd>⌘</kbd> <kbd>Print</kbd> | Capture the whole screen without the pointer (wait for 10 seconds).
 <kbd>⌥</kbd> <kbd>F4</kbd> | Close window.
+<kbd>⌥</kbd> <kbd>⇥</kbd> | Focus to the next window.
+<kbd>⌥</kbd> <kbd>⇧</kbd> <kbd>⇥</kbd> | Focus to the previous window.
 
 Notes
 -----
