@@ -1,48 +1,44 @@
-*.vt100.cursorBlink: true
-*.vt100.faceName: Terminus:antialias=false:size=9
-*.vt100.fullscreen: never
-*.vt100.saveLines: 10000
-*.vt100.scrollBar: false
-*.vt100.scrollTtyOutput: false
-*.vt100.title: Terminal
-*.vt100.utf8: true
+URxvt.perl-ext-common: clipboard,default
 
-! Terminal column, row, left, top
-*.vt100.geometry: 90x30+30+30
+*.background: #080808
+*.cursorColor: #ffffff
+*.foreground: #ffffff
 
-! Terminal background color
-*.vt100.background: #080808
+*.color0: #080808
+*.color1: #d75f5f
+*.color2: #5faf5f
+*.color3: #d7d75f
+*.color4: #87afaf
+*.color5: #af87d7
+*.color6: #d7ffd7
+*.color7: #eeeeee
 
-! Terminal text color
-*.vt100.foreground: #ffffff
+*.color8: #888888
+*.color9: #ff5f5f
+*.color10: #87d75f
+*.color11: #ffff87
+*.color12: #87afff
+*.color13: #af87ff
+*.color14: #d7ffff
+*.color15: #ffffff
 
-*.vt100.color0: #080808
-*.vt100.color1: #d75f5f
-*.vt100.color2: #5faf5f
-*.vt100.color3: #d7d75f
-*.vt100.color4: #87afaf
-*.vt100.color5: #af87d7
-*.vt100.color6: #d7ffd7
-*.vt100.color7: #eeeeee
+URxvt.cursorBlink: true
+URxvt.cursorUnderline: false
+URxvt.depth: 24
+URxvt.font: xft:DejaVu Sans Mono:antialias=true:size=9
+URxvt.geometry: 90x30
+URxvt.internalBorder: 2
+URxvt.iso14755: false
+URxvt.letterSpace: -1
+URxvt.lineSpace: 0
+URxvt.saveLines: 10000
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.urgentOnBell: true
 
-*.vt100.color8: #888888
-*.vt100.color9: #ff5f5f
-*.vt100.color10: #87d75f
-*.vt100.color11: #ffff87
-*.vt100.color12: #87afff
-*.vt100.color13: #af87ff
-*.vt100.color14: #d7ffff
-*.vt100.color15: #ffffff
-
-! Allow to copy text with <CTRL+SHIFT+C>
-! Allow to paste text with <CTRL+SHIFT+V>
-*.vt100.selectToClipboard: true
-*.vt100.translations: #override \n\
-  Ctrl <Key>KP_Add: larger-vt-font() \n\
-  Ctrl <Key>KP_Subtract: smaller-vt-font() \n\
-  Ctrl <Key>minus: smaller-vt-font() \n\
-  Ctrl <Key>plus: larger-vt-font() \n\
-  Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
-  Ctrl Shift <Key>V: insert-selection(CLIPBOARD) \n\
-  Shift <Key>Down: scroll-forw(1) \n\
-  Shift <Key>Up: scroll-back(1)
+URxvt.keysym.Control-Left: \033[1;5D
+URxvt.keysym.Control-Right: \033[1;5C
+URxvt.keysym.Control-Shift-C: perl:clipboard:copy
+URxvt.keysym.Control-Shift-V: perl:clipboard:paste
+URxvt.keysym.Shift-Down: command:\033]721;1\007
+URxvt.keysym.Shift-Up: command:\033]720;1\007

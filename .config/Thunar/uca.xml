@@ -4,7 +4,7 @@
     <icon>utilities-terminal</icon>
     <name>Open Terminal Here</name>
     <unique-id>1623428989071055-1</unique-id>
-    <command>xterm</command>
+    <command>urxvt</command>
     <description>Open folder in terminal.</description>
     <patterns>*</patterns>
     <directories/>

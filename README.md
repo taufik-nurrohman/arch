@@ -17,13 +17,14 @@ Dependencies
  - `network-manager-applet` → To add network manager icon in system tray.
  - `openbox` → The window manager.
  - `picom` → To add shadow under windows.
+ - `rxvt-unicode` → The terminal emulator.
  - `scrot` → The screen capture utility.
  - `thunar` → The file explorer.
  - `tint2` → The task bar.
  - `ttf-dejavu` → The font used in `openbox` and `tint2`.
+ - `urxvt-perls` → Extensions for `rxvt-unicode`.
  - `vim` → The code editor.
  - `volumeicon` → To add volume icon in system tray.
- - `xterm` → The terminal emulator.
 
 Optional Dependencies
 ---------------------
@@ -34,7 +35,7 @@ Optional Dependencies
  - `firefox` → The full featured web browser. Average users would need it anyway.
  - `lxappearance`, `obconf`, `tint2conf` → A utility tools to change the desktop theme and icons.
  - `onboard` → The on screen keyboard.
- - `terminus-font` → The font used in `xterm`.
+ - `terminus-font` → The font used in `rxvt-unicode`.
  - `thunar-archive-plugin` → To add archiving tasks in the context menu.
  - `vlc` → The video player.
  - `xarchiver` → Archiving and compression tools (also, don&rsquo;t forget to install `gzip`, `rar`, `unrar`, `unzip`, and `zip`).

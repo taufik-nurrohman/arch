@@ -13,7 +13,7 @@
     </item>
     <item label="Terminal">
       <action name="Execute">
-        <execute>xterm</execute>
+        <execute>urxvt</execute>
       </action>
     </item>
     <separator/>
