@@ -26,7 +26,7 @@ URxvt.cursorBlink: true
 URxvt.cursorUnderline: false
 URxvt.depth: 24
 URxvt.font: xft:DejaVu Sans Mono:antialias=true:size=9
-URxvt.geometry: 90x30
+URxvt.geometry: 100x30
 URxvt.internalBorder: 2
 URxvt.iso14755: false
 URxvt.letterSpace: -1
@@ -36,9 +36,60 @@ URxvt.scrollBar: false
 URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
 
+! <https://vim.fandom.com/wiki/Get_Alt_key_to_work_in_terminal>
+! URxvt.keysym.Control-Shift-Page_Down: seen as Rxvt.keysym.Shift-Page_Down
+! URxvt.keysym.Control-Shift-Page_Up: seen as Rxvt.keysym.Shift-Page_Up
+! URxvt.keysym.Meta-Control-Shift-Page_Down: seen as Rxvt.keysym.Shift-Page_Down
+! URxvt.keysym.Meta-Control-Shift-Page_Up: seen as Rxvt.keysym.Shift-Page_Up
+! URxvt.keysym.Meta-Shift-Page_Down: seen as Rxvt.keysym.Shift-Page_Down
+! URxvt.keysym.Meta-Shift-Page_Up: seen as Rxvt.keysym.Shift-Page_Up
+! URxvt.keysym.Shift-Down: \033[1;2B
+! URxvt.keysym.Shift-Up: \033[1;2A
+URxvt.keysym.Control-Down: \033[1;5B
+URxvt.keysym.Control-End: \033[1;5F
+URxvt.keysym.Control-Home: \033[1;5H
 URxvt.keysym.Control-Left: \033[1;5D
+URxvt.keysym.Control-Page_Down: \033[6;5~
+URxvt.keysym.Control-Page_Up: \033[5;5~
 URxvt.keysym.Control-Right: \033[1;5C
 URxvt.keysym.Control-Shift-C: perl:clipboard:copy
+URxvt.keysym.Control-Shift-Down: \033[1;6B
+URxvt.keysym.Control-Shift-End: \033[1;6F
+URxvt.keysym.Control-Shift-Home: \033[1;6H
+URxvt.keysym.Control-Shift-Left: \033[1;6D
+URxvt.keysym.Control-Shift-Right: \033[1;6C
+URxvt.keysym.Control-Shift-Up: \033[1;6A
 URxvt.keysym.Control-Shift-V: perl:clipboard:paste
+URxvt.keysym.Control-Up: \033[1;5A
+URxvt.keysym.Meta-Control-Down: \033[1;7B
+URxvt.keysym.Meta-Control-End: \033[1;7F
+URxvt.keysym.Meta-Control-Home: \033[1;7H
+URxvt.keysym.Meta-Control-Left: \033[1;7D
+URxvt.keysym.Meta-Control-Page_Down: \033[6;7~
+URxvt.keysym.Meta-Control-Page_Up: \033[5;7~
+URxvt.keysym.Meta-Control-Right: \033[1;7C
+URxvt.keysym.Meta-Control-Shift-Down: \033[1;8B
+URxvt.keysym.Meta-Control-Shift-End: \033[1;8F
+URxvt.keysym.Meta-Control-Shift-Home: \033[1;8H
+URxvt.keysym.Meta-Control-Shift-Left: \033[1;8D
+URxvt.keysym.Meta-Control-Shift-Right: \033[1;8C
+URxvt.keysym.Meta-Control-Shift-Up: \033[1;8A
+URxvt.keysym.Meta-Control-Up: \033[1;7A
+URxvt.keysym.Meta-Down: \033[1;3B
+URxvt.keysym.Meta-End: \033[1;3F
+URxvt.keysym.Meta-Home: \033[1;3H
+URxvt.keysym.Meta-Left: \033[1;3D
+URxvt.keysym.Meta-Page_Down: \033[6;3~
+URxvt.keysym.Meta-Page_Up: \033[5;3~
+URxvt.keysym.Meta-Right: \033[1;3C
+URxvt.keysym.Meta-Shift-Down: \033[1;4B
+URxvt.keysym.Meta-Shift-End: \033[1;4F
+URxvt.keysym.Meta-Shift-Home: \033[1;4H
+URxvt.keysym.Meta-Shift-Left: \033[1;4D
+URxvt.keysym.Meta-Shift-Right: \033[1;4C
+URxvt.keysym.Meta-Shift-Up: \033[1;4A
+URxvt.keysym.Meta-Up: \033[1;3A
 URxvt.keysym.Shift-Down: command:\033]721;1\007
+URxvt.keysym.Shift-Left: \033[1;2D
+URxvt.keysym.Shift-Right: \033[1;2C
 URxvt.keysym.Shift-Up: command:\033]720;1\007
