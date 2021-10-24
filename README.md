@@ -11,12 +11,12 @@ Dependencies
 ------------
 
  - `archlinux-xdg-menu` → To generate the applications menu.
- - `dmenu` → The task runner.
  - `feh` → The image viewer and to add the wallpaper.
  - `netsurf` → The web browser.
  - `network-manager-applet` → To add network manager icon in system tray.
  - `openbox` → The window manager.
  - `picom` → To add shadow under windows.
+ - `rofi` → The task runner.
  - `rxvt-unicode` → The terminal emulator.
  - `scrot` → The screen capture utility.
  - `thunar` → The file explorer.
