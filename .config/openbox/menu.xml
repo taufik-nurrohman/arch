@@ -3,7 +3,7 @@
   <menu id="root-menu" label="Menus">
     <item label="Browser">
       <action name="Execute">
-        <execute>netsurf</execute>
+        <execute>firefox-developer-edition</execute>
       </action>
     </item>
     <item label="Files">

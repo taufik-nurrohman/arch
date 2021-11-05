@@ -12,19 +12,22 @@ Dependencies
 
  - `archlinux-xdg-menu` → To generate the applications menu.
  - `feh` → The image viewer and to add the wallpaper.
- - `netsurf` → The web browser.
+ - `firefox-developer-edition` → The web browser.
+ - `gvfs` → To detect and mount external devices automatically.
  - `network-manager-applet` → To add network manager icon in system tray.
+ - `networkmanager` → The network manager.
  - `openbox` → The window manager.
  - `picom` → To add shadow under windows.
  - `rofi` → The task runner.
  - `rxvt-unicode` → The terminal emulator.
  - `scrot` → The screen capture utility.
- - `thunar` → The file explorer.
+ - `thunar` → The file manager.
  - `tint2` → The task bar.
- - `ttf-dejavu` → The font used in `openbox` and `tint2`.
+ - `ttf-dejavu`, `ttf-ibm-plex`, `ttf-liberation` → Fonts used in `openbox`, `rxvt-unicode`, and `tint2`.
  - `urxvt-perls` → Extensions for `rxvt-unicode`.
- - `vim` → The code editor.
+ - `vim` → The source code editor.
  - `volumeicon` → To add volume icon in system tray.
+ - `xorg`, `xorg-server`, `xorg-xinit` → Dependencies for `openbox`.
 
 Optional Dependencies
 ---------------------
@@ -32,13 +35,14 @@ Optional Dependencies
  - `adobe-source-han-sans-otc-fonts`, `bdf-unifont` → To add unicode fonts fallback.
  - `alsa-utils` → This contains (among other utilities) the `alsamixer` and `amixer` utilities for `volumeicon`.
  - `drawing` → The &ldquo;paint&rdquo; application.
- - `firefox` → The full featured web browser. Average users would need it anyway.
- - `lxappearance`, `obconf`, `tint2conf` → A utility tools to change the desktop theme and icons.
+ - `gammy` → Brightness and color temperature controls.
+ - `gimp` → The photo editor.
+ - `libreoffice` → The office suites.
+ - `lxappearance`, `obconf`, → A utility tools to change the desktop theme and icons.
  - `onboard` → The on screen keyboard.
- - `terminus-font` → The font used in `rxvt-unicode`.
  - `thunar-archive-plugin` → To add archiving tasks in the context menu.
  - `vlc` → The video player.
- - `xarchiver` → Archiving and compression tools (also, don&rsquo;t forget to install `gzip`, `rar`, `unrar`, `unzip`, and `zip`).
+ - `xarchiver` → Archiving and compression tools (also, don&rsquo;t forget to install `gzip`, `p2zip`, `rar`, `unrar`, `unzip`, and `zip`).
  - `xed` → The text editor for average users.
 
 My Keyboard Shortcuts

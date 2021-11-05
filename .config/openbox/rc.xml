@@ -15,7 +15,7 @@
   <placement>
     <policy>Smart</policy>
     <center>yes</center>
-    <monitor>Primary</monitor>
+    <monitor>Active</monitor>
     <primaryMonitor>1</primaryMonitor>
   </placement>
   <theme>
@@ -24,38 +24,38 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>DejaVu Sans</name>
-      <size>8</size>
+      <name>IBM Plex Sans</name>
+      <size>9</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
-      <name>DejaVu Sans</name>
-      <size>8</size>
+      <name>IBM Plex Sans</name>
+      <size>9</size>
       <weight>Bold</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
-      <name>DejaVu Sans</name>
-      <size>8</size>
+      <name>IBM Plex Sans</name>
+      <size>9</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
-      <name>DejaVu Sans</name>
-      <size>8</size>
+      <name>IBM Plex Sans</name>
+      <size>9</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>DejaVu Sans</name>
-      <size>8</size>
+      <name>IBM Plex Sans</name>
+      <size>9</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>DejaVu Sans</name>
-      <size>8</size>
+      <name>IBM Plex Sans</name>
+      <size>9</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
@@ -242,7 +242,7 @@
     </keybind>
     <keybind key="W-r">
       <action name="Execute">
-        <command>rofi -font 'DejaVu Sans 8' -normal-window -show run -theme-str '#element { border: 0; padding: 5; } #element.alternate.normal { background-color: #121212; text-color: #808080; } #element.normal.normal { background-color: #121212; text-color: #808080; } #element.selected.normal { background-color: #4c2425; text-color: #fff; } #entry { background-color: #303030; margin: 0; padding: 5; text-color: #fff; } #inputbar { margin: 0; padding: 0; text-color: #fff; } #inputbar { children: [ entry ]; } #listview { border: 0; padding: 0; spacing: 0; } #mode-switcher { border: 0; margin: 0; padding: 0; } #scrollbar { handle-color: #ef5350; } #textbox { text-color: #808080; } #window { background-color: #101010; border: 2; border-color: #000; padding: 0; }'</command>
+        <command>rofi -font 'DejaVu Sans 8' -modi='drun,run' -normal-window -show drun -theme-str '#element { border: 0; padding: 5; } #element.alternate.normal { background-color: #000; text-color: #808080; } #element.normal.normal { background-color: #000; text-color: #808080; } #element.selected.normal { background-color: #27455e; text-color: #fff; } #entry { background-color: #101010; margin: 0; padding: 5; text-color: #fff; } #inputbar { margin: 0; padding: 0; text-color: #fff; } #inputbar { children: [ entry ]; } #listview { border: 0; padding: 0; spacing: 0; } #mode-switcher { border: 0; margin: 0; padding: 0; } #scrollbar { handle-color: #222; } #textbox { text-color: #808080; } #window { background-color: #000; border: 2; border-color: #000; padding: 0; }'</command>
       </action>
     </keybind>
     <keybind key="W-t">
@@ -281,7 +281,7 @@
         <action name="Move"/>
       </mousebind>
       <mousebind button="Left" action="DoubleClick">
-        <action name="ToggleMaximize"/>
+        <action name="ToggleMaximizeFull"/>
       </mousebind>
     </context>
     <context name="Titlebar Top Right Bottom Left TLCorner TRCorner BRCorner BLCorner">

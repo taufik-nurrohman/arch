@@ -1,5 +1,5 @@
+border.color: #000000
 border.width: 1
-menu.border.color: #000000
 menu.border.width: 8
 menu.items.active.text.color: #eeeeee
 menu.items.bg.color: #000000
@@ -24,10 +24,9 @@ window.active.button.toggled.hover.image.color: #eeeeee
 window.active.button.toggled.image.color: #bbbbbb
 window.active.button.unpressed.image.color: #bbbbbb
 window.active.label.text.color: #bbbbbb
-window.border.color: #000000
 window.client.padding.height: 0
 window.client.padding.width: 0
 window.handle.width: 0
-window.inactive.button.unpressed.image.color: #999999
-window.inactive.label.text.color: #999999
+window.inactive.button.unpressed.image.color: #666666
+window.inactive.label.text.color: #666666
 window.label.text.justify: left
