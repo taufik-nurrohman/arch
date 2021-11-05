@@ -13,7 +13,7 @@ Dependencies
  - `archlinux-xdg-menu` → To generate the applications menu.
  - `feh` → The image viewer and to add the wallpaper.
  - `firefox-developer-edition` → The web browser.
- - `gvfs` → To detect and mount external devices automatically.
+ - `gvfs`, `gvfs-gphoto2`, `gvfs-mtp`, `mtpfs` → To detect and mount external devices automatically.
  - `network-manager-applet` → To add network manager icon in system tray.
  - `networkmanager` → The network manager.
  - `openbox` → The window manager.
@@ -37,6 +37,7 @@ Optional Dependencies
  - `drawing` → The &ldquo;paint&rdquo; application.
  - `gammy` → Brightness and color temperature controls.
  - `gimp` → The photo editor.
+ - `jmtpfs` → Optional dependency for `mtpfs`.
  - `libreoffice` → The office suites.
  - `lxappearance`, `obconf`, → A utility tools to change the desktop theme and icons.
  - `onboard` → The on screen keyboard.
@@ -44,6 +45,12 @@ Optional Dependencies
  - `vlc` → The video player.
  - `xarchiver` → Archiving and compression tools (also, don&rsquo;t forget to install `gzip`, `p2zip`, `rar`, `unrar`, `unzip`, and `zip`).
  - `xed` → The text editor for average users.
+
+External Dependencies
+---------------------
+
+ - [Material Black Theme](https://www.opendesktop.org/p/1316887)
+ - [Papirus Icon Theme](https://www.opendesktop.org/p/1166289)
 
 My Keyboard Shortcuts
 ---------------------
@@ -75,7 +82,11 @@ Keys | Description
 Notes
 -----
 
-Think of this project as your home folder. Configuration files are intended only to decorate the `openbox` and `tint2` (and also to set the [wallpaper](https://thewallpaper.co/landscape-mountainautumn-leaves-road-nature-desktop-wallpapers-green-fall-colorful-download-hd-wallpapers-path-wallpaper-for-smart-pnone-treeshd-wallpapers/)). Application styles are mostly not handled by these files. You have to find the right theme to be combined with this dark color scheme. I would recommend [Material](https://www.opendesktop.org/s/Gnome/p/1316887) or [Equilux](https://www.opendesktop.org/s/Gnome/p/1182169) for the theme and [Tela Dark](https://www.opendesktop.org/s/Gnome/p/1279924) for the icons.
+Dependency and optional dependency can be installed directly via [`pacman`](https://archlinux.org/packages). If it is somehow could not be installed, then it should be in the [AUR](https://aur.archlinux.org).
+
+Put the icon folder in `~/.icons` and the theme folder in `~/.themes`. You can activate them via GUI helper such as `gnome-tweaks` or `lxappearance`.
+
+Think of this project as your home folder. Configuration files are intended only to decorate the `openbox` and `tint2` (and also to set the [wallpaper](https://thewallpaper.co/landscape-mountainautumn-leaves-road-nature-desktop-wallpapers-green-fall-colorful-download-hd-wallpapers-path-wallpaper-for-smart-pnone-treeshd-wallpapers/)). Application styles are mostly not handled by these files. You have to find the right theme to be combined with this dark color scheme.
 
 Copy and paste the files to your home folder.
 
