@@ -150,6 +150,12 @@ Since I use this web server for development tools, it never hurts to make `/srv/
 </IfModule>
 ~~~
 
+Then:
+
+~~~ .sh
+sudo chown taufik:taufik /srv/http
+~~~
+
 Don&rsquo;t forget to restart apache after update:
 
 ~~~ .sh
