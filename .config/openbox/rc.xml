@@ -242,7 +242,7 @@
     </keybind>
     <keybind key="W-r">
       <action name="Execute">
-        <command>rofi -font 'DejaVu Sans 8' -modi='drun,run' -normal-window -show drun -theme-str '#element { border: 0; padding: 5; } #element.alternate.normal { background-color: #000; text-color: #808080; } #element.normal.normal { background-color: #000; text-color: #808080; } #element.selected.normal { background-color: #27455e; text-color: #fff; } #entry { background-color: #101010; margin: 0; padding: 5; text-color: #fff; } #inputbar { margin: 0; padding: 0; text-color: #fff; } #inputbar { children: [ entry ]; } #listview { border: 0; padding: 0; spacing: 0; } #mode-switcher { border: 0; margin: 0; padding: 0; } #scrollbar { handle-color: #222; } #textbox { text-color: #808080; } #window { background-color: #000; border: 2; border-color: #000; padding: 0; }'</command>
+        <command>rofi -font 'IBM Plex Sans 9' -modi='drun,run' -normal-window -show drun -theme-str '#element { border: 0; padding: 5; } #element.alternate.normal { background-color: #000; text-color: #808080; } #element.normal.normal { background-color: #000; text-color: #808080; } #element.selected.normal { background-color: #27455e; text-color: #fff; } #entry { background-color: #101010; margin: 0; padding: 5; text-color: #fff; } #inputbar { margin: 0; padding: 0; text-color: #fff; } #inputbar { children: [ entry ]; } #listview { border: 0; padding: 0; spacing: 0; } #mode-switcher { border: 0; margin: 0; padding: 0; } #scrollbar { handle-color: #222; } #textbox { text-color: #808080; } #window { background-color: #000; border: 2; border-color: #000; padding: 0; }'</command>
       </action>
     </keybind>
     <keybind key="W-t">
