@@ -93,3 +93,142 @@ Copy and paste the files to your home folder.
 Remove this `README.md` file and then restart your computer!
 
 Visit [this project page](https://github.com/taufik-nurrohman/vim) to configure the Vim editor.
+
+Reminders
+---------
+
+The following are tasks that I personally need but often forget. They are not required to make your Arch Linux look like the screenshots above.
+
+### LAMP (Linux, Apache, MySQL, PHP/Perl/Python)
+
+I don&rsquo;t need Perl and Python for everyday life, and sometimes they are just installed anyway as dependencies of certain applications on Linux. So here I will focus on the installation and settings for Apache and PHP only.
+
+#### Step 1: Install Apache
+
+~~~ .sh
+sudo pacman -Syu apache
+~~~
+
+The main configuration file is `/etc/httpd/conf/httpd.conf`, which includes various other configuration files. The default configuration file should be fine for a simple setup. By default, it will serve the directory `/srv/http` to anyone who visits your website.
+
+Start Apache service:
+
+~~~ .sh
+sudo systemctl enable httpd.service
+~~~
+
+Apache should now be running. Test by visiting `http://127.0.0.1` in a web browser.
+
+Allow to override the base configurations using `.htaccess` files by changing the directive in `/etc/httpd/conf/httpd.conf` from `AllowOverride None` to `AllowOverride All`:
+
+~~~ .apacheconf
+<Directory "/srv/http">
+  Options Indexes FollowSymLinks
+  AllowOverride All
+  Require all granted
+</Directory>
+~~~
+
+Enable `mod_rewrite` module by uncommenting the following line:
+
+~~~ .apacheconf
+#LoadModule rewrite_module modules/mod_rewrite.so
+~~~
+
+Disable user&rsquo;s `public_html` directory from being on the web server by commenting this line in `/etc/httpd/conf/httpd.conf`:
+
+~~~ .apacheconf
+Include conf/extra/httpd-userdir.conf
+~~~
+
+Since I use this web server for development tools, it never hurts to make `/srv/http` folder accessible by me so that I can do file management in there freely:
+
+~~~ .apacheconf
+<IfModule unixd_module>
+  User taufik
+  Group taufik
+</IfModule>
+~~~
+
+Don&rsquo;t forget to restart apache after update:
+
+~~~ .sh
+sudo systemctl restart httpd.service
+~~~
+
+_To be continued._
+
+#### Step 2: Install PHP
+
+This method is probably the easiest, but is also the least scalable: it is suitable for a light request load. It also requires you to change the MPM module, which may cause problems with other extensions (e.g. it is not compatible with HTTP/2).
+
+~~~ .sh
+sudo pacman -Syu php-apache
+~~~
+
+In `/etc/httpd/conf/httpd.conf`, comment this line:
+
+~~~ .apacheconf
+LoadModule mpm_event_module modules/mod_mpm_event.so
+~~~
+
+&hellip; and uncomment this line:
+
+~~~ .apacheconf
+#LoadModule mpm_prefork_module modules/mod_mpm_prefork.so
+~~~
+
+To enable PHP, add these lines to `/etc/httpd/conf/httpd.conf`:
+
+Place this at the end of the `LoadModule` list:
+
+~~~ .apacheconf
+LoadModule php_module modules/libphp.so
+AddHandler php-script .php
+~~~
+
+Place this at the end of the `Include` list:
+
+~~~ .apacheconf
+Include conf/extra/php_module.conf
+~~~
+
+Don&rsquo;t forget to restart apache after update:
+
+~~~ .sh
+sudo systemctl restart httpd.service
+~~~
+
+_To be continued._
+
+### Node.js
+
+First, install whatever versions of NodeJS and NPM are available. This will install a (probably) outdated version of NodeJS and NPM:
+
+~~~ .sh
+sudo pacman -Syu nodejs npm
+~~~
+
+Next, you need to update NPM. To update NPM, simply run the following:
+
+~~~ .sh
+sudo npm i -g npm
+~~~
+
+Then, install the package `n`:
+
+~~~ .sh
+sudo npm i -g n
+~~~
+
+Use `n` to install the latest:
+
+~~~ .sh
+sudo n latest
+~~~
+
+&hellip; or latest long-term support version of Node.js:
+
+~~~ .sh
+sudo n lts
+~~~
