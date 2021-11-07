@@ -48,6 +48,7 @@ Optional Dependencies
  - `lxappearance`, `obconf`, → A utility tools to change the desktop theme and icons.
  - `obs-studio` → The video streamer.
  - `onboard` → The on screen keyboard.
+ - `qutebrowser` → WebKit-based web browser that is smaller than `chromium` from the file size, should be enough to test CSS and JavaScript features compared to Gecko-based web browser which is available via `firefox-development-edition`.
  - `thunar-archive-plugin` → To add archiving tasks in the context menu.
  - `vlc` → The video player.
  - `xarchiver` → Archiving and compression tools (also, don&rsquo;t forget to install `gzip`, `p2zip`, `rar`, `unrar`, `unzip`, and `zip`).
@@ -70,6 +71,7 @@ Keys | Description
 <kbd>❖</kbd> <kbd>e</kbd> | Open file explorer.
 <kbd>❖</kbd> <kbd>m</kbd> | Minimize all windows.
 <kbd>❖</kbd> <kbd>r</kbd> | Run a command.
+<kbd>❖</kbd> <kbd>s</kbd> | Run an application.
 <kbd>❖</kbd> <kbd>t</kbd> | Open terminal.
 <kbd>❖</kbd> <kbd>←</kbd> | Move window to the left and resize its width to 50%, height to 100%.
 <kbd>❖</kbd> <kbd>↑</kbd> | Move window to the top and resize its width to 100%, height to 50%.
@@ -97,6 +99,14 @@ Reminders
 ---------
 
 The following are tasks that I personally need but often forget. They are not required to make your Arch Linux look like the screenshots above.
+
+### Arch
+
+I am currently dual booting Linux and Windows, which somehow messed up the time. This command should fix the issue:
+
+~~~ .sh
+sudo timedatectl set-local-rtc 1 --adjust-system-clock
+~~~
 
 ### LAMP (Linux, Apache, MySQL, PHP/Perl/Python)
 
