@@ -1,15 +1,15 @@
 My Minimalist Desk Setup
 ========================
 
-![2021-11-06-195220_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140599752-3c2d0898-1375-49c6-9768-c2a2b335094c.png)
+![2021-11-07-200202_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140634586-64087020-6e99-41da-92a4-ae967e5e8cae.png)
 
-![2021-11-06-195049_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140599748-74ac8517-542d-4394-90f2-c5d1a0d07608.png)
+![2021-11-07-200251_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140634588-b16a0124-5677-41da-b505-11e2ed863591.png)
 
-![2021-11-06-195126_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140599749-e6e45e6e-1fc7-4aee-88ff-55fe96ed62a6.png)
+![2021-11-07-200444_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140634593-8cdb1243-80a9-4fd0-87d1-41de7ae09e30.png)
 
-![2021-11-06-195346_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140599754-df430990-2c82-4304-8279-3dd32f1d7c59.png)
+![2021-11-07-200657_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140634597-567e23a9-5eb4-40f2-970b-126dc596f529.png)
 
-![2021-11-06-195824_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140599757-6ed852aa-7637-4ff8-a825-5506804e118d.png)
+![2021-11-07-201622_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140634658-9de29b4c-27e8-4e2e-af69-d70bc8e79ae7.png)
 
 Dependencies
 ------------
@@ -28,6 +28,7 @@ Dependencies
  - `thunar` → The file manager.
  - `tint2` → The task bar.
  - `ttf-dejavu`, `ttf-ibm-plex`, `ttf-liberation` → Fonts used in `openbox`, `rxvt-unicode`, and `tint2`.
+ - `unclutter` → To auto-hide the mouse pointer.
  - `urxvt-perls` → Extensions for `rxvt-unicode`.
  - `vim` → The source code editor.
  - `volumeicon` → To add volume icon in system tray.
@@ -44,17 +45,12 @@ Optional Dependencies
  - `jmtpfs` → Optional dependency for `mtpfs`.
  - `libreoffice` → The office suites.
  - `lxappearance`, `obconf`, → A utility tools to change the desktop theme and icons.
+ - `obs-studio` → The video streamer.
  - `onboard` → The on screen keyboard.
  - `thunar-archive-plugin` → To add archiving tasks in the context menu.
  - `vlc` → The video player.
  - `xarchiver` → Archiving and compression tools (also, don&rsquo;t forget to install `gzip`, `p2zip`, `rar`, `unrar`, `unzip`, and `zip`).
  - `xed` → The text editor for average users.
-
-External Dependencies
----------------------
-
- - [Material Black Theme](https://www.opendesktop.org/p/1316887)
- - [Papirus Icon Theme](https://www.opendesktop.org/p/1166289)
 
 My Keyboard Shortcuts
 ---------------------

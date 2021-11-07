@@ -1,0 +1,8 @@
+[user]
+  email = hi@taufik-nurrohman.com
+  name = Taufik Nurrohman
+[credential]
+  helper = store
+[core]
+  autocrlf = false
+  eol = lf
