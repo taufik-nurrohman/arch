@@ -1874,7 +1874,7 @@ menu,
 .context-menu {
   margin: 4px 0;
   padding: 4px 0;
-  box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: none;
   background-color: #141416;
   background-clip: border-box;
   border: 1px solid rgba(204, 204, 204, 0.12);
