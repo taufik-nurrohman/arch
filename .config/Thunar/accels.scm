@@ -71,6 +71,7 @@
 ; (gtk_accel_path "<Actions>/ThunarLauncher/restore" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-desktop" "")
 ; (gtk_accel_path "<Actions>/ThunarBookmarks/162515980378016784a9b82aef41b61b" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/c029c2a2cc0f4df5a08a3fb361a2b49d" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/create-folder" "<Primary><Shift>n")
 ; (gtk_accel_path "<Actions>/ThunarWindow/open-location" "<Primary>l")
 ; (gtk_accel_path "<Actions>/ThunarWindow/view-menubar" "<Primary>m")

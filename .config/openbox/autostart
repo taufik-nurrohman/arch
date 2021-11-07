@@ -1,4 +1,4 @@
 feh --bg-fill ~/Picture/Wall/* --no-fehbg --randomize
 picom &
 tint2 & (sleep 1s && (nm-applet & volumeicon)) &
-unclutter -idle 1 -jitter 2 -root
+unclutter -idle 3 -jitter 2 -root
