@@ -20,6 +20,7 @@ Dependencies
  - `gvfs`, `gvfs-gphoto2`, `gvfs-mtp`, `mtpfs` → To detect and mount external devices automatically.
  - `network-manager-applet` → To add network manager icon in system tray.
  - `networkmanager` → The network manager.
+ - `ntfs-3g` → To add NTFS file system support.
  - `openbox` → The window manager.
  - `picom` → To add shadow under windows.
  - `rofi` → The task runner.
