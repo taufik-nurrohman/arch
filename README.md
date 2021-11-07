@@ -82,9 +82,7 @@ Keys | Description
 Notes
 -----
 
-Dependency and optional dependency can be installed directly via [`pacman`](https://archlinux.org/packages). If it is somehow could not be installed, then it should be in the [AUR](https://aur.archlinux.org).
-
-Put the icon folder in `~/.icons` and the theme folder in `~/.themes`. You can activate them via GUI helper such as `gnome-tweaks` or `lxappearance`.
+Dependency and optional dependency can be installed directly via [Pacman](https://archlinux.org/packages). If it is somehow could not be installed, then it should be in the [AUR](https://aur.archlinux.org).
 
 Think of this project as your home folder. Configuration files are intended only to decorate the `openbox` and `tint2` (and also to set the [wallpaper](https://thewallpaper.co/landscape-mountainautumn-leaves-road-nature-desktop-wallpapers-green-fall-colorful-download-hd-wallpapers-path-wallpaper-for-smart-pnone-treeshd-wallpapers/)). Application styles are mostly not handled by these files. You have to find the right theme to be combined with this dark color scheme.
 
@@ -238,3 +236,9 @@ sudo n latest
 ~~~ .sh
 sudo n lts
 ~~~
+
+Credits
+-------
+
+ - [Material Black Theme](https://www.opendesktop.org/p/1316887)
+ - [Papirus Icon Theme](https://www.opendesktop.org/p/1166289)
