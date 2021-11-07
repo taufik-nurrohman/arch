@@ -178,7 +178,7 @@ _To be continued._
 This method is probably the easiest, but is also the least scalable: it is suitable for a light request load. It also requires you to change the MPM module, which may cause problems with other extensions (e.g. it is not compatible with HTTP/2).
 
 ~~~ .sh
-sudo pacman -Syu php-apache
+sudo pacman -Syu php-apache php-gd
 ~~~
 
 In `/etc/httpd/conf/httpd.conf`, comment this line:
@@ -206,6 +206,12 @@ Place this at the end of the `Include` list:
 
 ~~~ .apacheconf
 Include conf/extra/php_module.conf
+~~~
+
+Next, uncomment this line in `/etc/php/php.ini` to enable GD:
+
+~~~ .sh
+;extension=gd
 ~~~
 
 Don&rsquo;t forget to restart apache after update:
