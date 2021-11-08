@@ -121,11 +121,15 @@
     <!-- Window Cycle -->
     <keybind key="A-Tab">
       <action name="NextWindow">
+        <bar>yes</bar>
+        <dialog>none</dialog>
         <raise>yes</raise>
       </action>
     </keybind>
     <keybind key="A-S-Tab">
       <action name="PreviousWindow">
+        <bar>yes</bar>
+        <dialog>none</dialog>
         <raise>yes</raise>
       </action>
     </keybind>
