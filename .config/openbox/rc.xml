@@ -437,16 +437,16 @@
       </mousebind>
     </context>
     <context name="Desktop">
-      <mousebind button="Up" action="Click">
-        <action name="GoToDesktop">
-          <to>previous</to>
-        </action>
-      </mousebind>
-      <mousebind button="Down" action="Click">
-        <action name="GoToDesktop">
-          <to>next</to>
-        </action>
-      </mousebind>
+      <!-- <mousebind button="Up" action="Click"> -->
+      <!--   <action name="GoToDesktop"> -->
+      <!--     <to>previous</to> -->
+      <!--   </action> -->
+      <!-- </mousebind> -->
+      <!-- <mousebind button="Down" action="Click"> -->
+      <!--   <action name="GoToDesktop"> -->
+      <!--     <to>next</to> -->
+      <!--   </action> -->
+      <!-- </mousebind> -->
     </context>
     <context name="Root">
       <mousebind button="Right" action="Press">
@@ -456,16 +456,16 @@
       </mousebind>
     </context>
     <context name="MoveResize">
-      <mousebind button="Up" action="Click">
-        <action name="GoToDesktop">
-          <to>previous</to>
-        </action>
-      </mousebind>
-      <mousebind button="Down" action="Click">
-        <action name="GoToDesktop">
-          <to>next</to>
-        </action>
-      </mousebind>
+      <!-- <mousebind button="Up" action="Click"> -->
+      <!--   <action name="GoToDesktop"> -->
+      <!--     <to>previous</to> -->
+      <!--   </action> -->
+      <!-- </mousebind> -->
+      <!-- <mousebind button="Down" action="Click"> -->
+      <!--   <action name="GoToDesktop"> -->
+      <!--     <to>next</to> -->
+      <!--   </action> -->
+      <!-- </mousebind> -->
     </context>
   </mouse>
   <menu>

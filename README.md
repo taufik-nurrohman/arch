@@ -18,6 +18,7 @@ Dependencies
  - `feh` → The image viewer and to add the wallpaper.
  - `firefox-developer-edition` → The web browser.
  - `gvfs`, `gvfs-gphoto2`, `gvfs-mtp`, `mtpfs` → To detect and mount external devices automatically.
+ - `iwd` → The Wi-Fi network manager.
  - `network-manager-applet` → To add network manager icon in system tray.
  - `networkmanager` → The network manager.
  - `ntfs-3g` → To add NTFS file system support.
