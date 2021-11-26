@@ -8,7 +8,7 @@
     </item>
     <item label="Files">
       <action name="Execute">
-        <execute>thunar</execute>
+        <execute>thunar ~/Document</execute>
       </action>
     </item>
     <item label="Terminal">

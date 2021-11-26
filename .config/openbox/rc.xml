@@ -135,12 +135,26 @@
     </keybind>
     <!-- Window Resize -->
     <keybind key="W-Down">
-      <action name="Unmaximize"/>
-      <action name="MoveResizeTo">
-        <height>50%</height>
-        <width>100%</width>
-        <x>center</x>
-        <y>-0</y>
+      <action name="If">
+        <query>
+          <maximized>yes</maximized>
+        </query>
+        <then>
+          <action name="Unmaximize"/>
+          <action name="MoveResizeTo">
+            <height>100%</height>
+            <width>100%</width>
+          </action>
+          <action name="ResizeRelative">
+            <bottom>-60</bottom>
+            <left>-60</left>
+            <right>-60</right>
+            <top>-60</top>
+          </action>
+        </then>
+        <else>
+          <action name="Iconify"/>
+        </else>
       </action>
     </keybind>
     <keybind key="W-Left">
@@ -162,26 +176,21 @@
       </action>
     </keybind>
     <keybind key="W-Up">
-      <action name="Unmaximize"/>
-      <action name="MoveResizeTo">
-        <height>50%</height>
-        <width>100%</width>
-        <x>center</x>
-        <y>0</y>
-      </action>
-    </keybind>
-    <keybind key="W-Return">
       <action name="If">
         <query>
-          <maximized>yes</maximized>
+          <!-- Does not work. Why?! -->
+          <iconified>yes</iconified>
         </query>
         <then>
-          <action name="Unmaximize"/>
           <action name="MoveResizeTo">
-            <height>75%</height>
-            <width>75%</width>
-            <x>center</x>
-            <y>center</y>
+            <height>100%</height>
+            <width>100%</width>
+          </action>
+          <action name="ResizeRelative">
+            <bottom>-60</bottom>
+            <left>-60</left>
+            <right>-60</right>
+            <top>-60</top>
           </action>
         </then>
         <else>
@@ -200,7 +209,7 @@
       <action name="ForEach">
         <query>
           <desktop>current</desktop>
-          <focused>false</focused>
+          <focused>no</focused>
         </query>
         <then>
           <action name="Iconify"/>
@@ -251,7 +260,7 @@
     </keybind>
     <keybind key="W-e">
       <action name="Execute">
-        <command>thunar</command>
+        <command>thunar ~/Document</command>
       </action>
     </keybind>
     <keybind key="W-t">
