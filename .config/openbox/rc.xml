@@ -166,6 +166,29 @@
         <y>center</y>
       </action>
     </keybind>
+    <keybind key="W-Return">
+      <action name="If">
+        <query>
+          <maximized>yes</maximized>
+        </query>
+        <then>
+          <action name="Unmaximize"/>
+          <action name="MoveResizeTo">
+            <height>100%</height>
+            <width>100%</width>
+          </action>
+          <action name="ResizeRelative">
+            <bottom>-60</bottom>
+            <left>-60</left>
+            <right>-60</right>
+            <top>-60</top>
+          </action>
+        </then>
+        <else>
+          <action name="Maximize"/>
+        </else>
+      </action>
+    </keybind>
     <keybind key="W-Right">
       <action name="Unmaximize"/>
       <action name="MoveResizeTo">
@@ -182,6 +205,7 @@
           <iconified>yes</iconified>
         </query>
         <then>
+          <action name="Unmaximize"/>
           <action name="MoveResizeTo">
             <height>100%</height>
             <width>100%</width>
