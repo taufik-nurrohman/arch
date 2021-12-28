@@ -75,9 +75,9 @@ Keys | Description
 <kbd>❖</kbd> <kbd>s</kbd> | Run an application.
 <kbd>❖</kbd> <kbd>t</kbd> | Open terminal.
 <kbd>❖</kbd> <kbd>←</kbd> | Move window to the left and resize its width to 50%, height to 100%.
-<kbd>❖</kbd> <kbd>↑</kbd> | Move window to the top and resize its width to 100%, height to 50%.
+<kbd>❖</kbd> <kbd>↑</kbd> | Maximize window.
 <kbd>❖</kbd> <kbd>→</kbd> | Move window to the right and resize its width to 50%, height to 100%.
-<kbd>❖</kbd> <kbd>↓</kbd> | Move window to the bottom and resize its width to 100%, height to 50%.
+<kbd>❖</kbd> <kbd>↓</kbd> | Unmaximize window or minimize window.
 <kbd>❖</kbd> <kbd>↵</kbd> | Toggle maximize window.
 <kbd>❖</kbd> <kbd>⎈</kbd> <kbd>←</kbd> | Move to the previous desktop if any.
 <kbd>❖</kbd> <kbd>⎈</kbd> <kbd>→</kbd> | Move to the next desktop if any.
