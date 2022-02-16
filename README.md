@@ -16,27 +16,33 @@ My Minimalist Desk Setup
 Dependencies
 ------------
 
- - `archlinux-xdg-menu` → To generate the applications menu.
- - `feh` → The image viewer and to add the wallpaper.
- - `firefox-developer-edition` → The web browser.
- - `gvfs`, `gvfs-gphoto2`, `gvfs-mtp`, `mtpfs` → To detect and mount external devices automatically.
- - `iwd` → The Wi-Fi network manager.
- - `network-manager-applet` → To add network manager icon in system tray.
- - `networkmanager` → The network manager.
- - `ntfs-3g` → To add NTFS file system support.
- - `openbox` → The window manager.
- - `picom` → To add shadow under windows.
- - `rofi` → The task runner.
- - `rxvt-unicode` → The terminal emulator.
- - `scrot` → The screen capture utility.
- - `thunar` → The file manager.
- - `tint2` → The task bar.
- - `ttf-dejavu`, `ttf-ibm-plex`, `ttf-liberation` → Fonts used in `openbox`, `rxvt-unicode`, and `tint2`.
- - `unclutter` → To auto-hide the mouse pointer.
- - `urxvt-perls` → Extensions for `rxvt-unicode`.
- - `vim` → The source code editor.
- - `volumeicon` → To add volume icon in system tray.
- - `xorg`, `xorg-server`, `xorg-xinit` → Dependencies for `openbox`.
+[![archlinux-xdg-menu](https://img.shields.io/archlinux/v/community/any/archlinux-xdg-menu?label=archlinux-xdg-menu&logo=archlinux&style=for-the-badge "To generate the applications menu.")](https://archlinux.org/packages/community/any/archlinux-xdg-menu/)
+[![feh](https://img.shields.io/archlinux/v/extra/x86_64/feh?label=feh&logo=archlinux&style=for-the-badge "The image viewer and to add the wallpaper.")](https://archlinux.org/packages/extra/x86_64/feh/)
+[![firefox-developer-edition](https://img.shields.io/archlinux/v/community/x86_64/firefox-developer-edition?label=firefox-developer-edition&logo=archlinux&style=for-the-badge "The web browser.")](https://archlinux.org/packages/community/x86_64/firefox-developer-edition/)
+[![gvfs](https://img.shields.io/archlinux/v/extra/x86_64/gvfs?label=gvfs&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/extra/x86_64/gvfs/)
+[![gvfs-gphoto2](https://img.shields.io/archlinux/v/extra/x86_64/gvfs-gphoto2?label=gvfs-gphoto2&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/extra/x86_64/gvfs-gphoto2/)
+[![gvfs-mtp](https://img.shields.io/archlinux/v/extra/x86_64/gvfs-mtp?label=gvfs-mtp&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/extra/x86_64/gvfs-mtp/)
+[![mtpfs](https://img.shields.io/archlinux/v/community/x86_64/mtpfs?label=mtpfs&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/community/x86_64/mtpfs/)
+[![iwd](https://img.shields.io/archlinux/v/community/x86_64/iwd?label=iwd&logo=archlinux&style=for-the-badge "The Wi-Fi network manager.")](https://archlinux.org/packages/community/x86_64/iwd/)
+[![network-manager-applet](https://img.shields.io/archlinux/v/extra/x86_64/network-manager-applet?label=network-manager-applet&logo=archlinux&style=for-the-badge "To add network manager icon in system tray.")](https://archlinux.org/packages/extra/x86_64/network-manager-applet/)
+[![networkmanager](https://img.shields.io/archlinux/v/extra/x86_64/networkmanager?label=networkmanager&logo=archlinux&style=for-the-badge "The network manager.")](https://archlinux.org/packages/extra/x86_64/networkmanager/)
+[![ntfs-3g](https://img.shields.io/archlinux/v/extra/x86_64/ntfs-3g?label=ntfs-3g&logo=archlinux&style=for-the-badge "To add NTFS file system support.")](https://archlinux.org/packages/extra/x86_64/ntfs-3g/)
+[![openbox](https://img.shields.io/archlinux/v/community/x86_64/openbox?label=openbox&logo=archlinux&style=for-the-badge "The window manager.")](https://archlinux.org/packages/community/x86_64/openbox/)
+[![picom](https://img.shields.io/archlinux/v/community/x86_64/picom?label=picom&logo=archlinux&style=for-the-badge "To add shadow under windows.")](https://archlinux.org/packages/community/x86_64/picom/)
+[![rofi](https://img.shields.io/archlinux/v/community/x86_64/rofi?label=rofi&logo=archlinux&style=for-the-badge "The task runner.")](https://archlinux.org/packages/community/x86_64/rofi/)
+[![rxvt-unicode](https://img.shields.io/archlinux/v/community/x86_64/rxvt-unicode?label=rxvt-unicode&logo=archlinux&style=for-the-badge "The terminal emulator.")](https://archlinux.org/packages/community/x86_64/rxvt-unicode/)
+[![scrot](https://img.shields.io/archlinux/v/community/x86_64/scrot?label=scrot&logo=archlinux&style=for-the-badge "The screen capture utility.")](https://archlinux.org/packages/community/x86_64/scrot/)
+[![thunar](https://img.shields.io/archlinux/v/extra/x86_64/thunar?label=thunar&logo=archlinux&style=for-the-badge "The file manager.")](https://archlinux.org/packages/extra/x86_64/thunar/)
+[![tint2](https://img.shields.io/archlinux/v/community/x86_64/tint2?label=tint2&logo=archlinux&style=for-the-badge "The task bar.")](https://archlinux.org/packages/community/x86_64/tint2/)
+[![ttf-dejavu](https://img.shields.io/archlinux/v/extra/any/ttf-dejavu?label=ttf-dejavu&logo=archlinux&style=for-the-badge "Fonts used in `openbox`, `rxvt-unicode`, and `tint2`.")](https://archlinux.org/packages/extra/any/ttf-dejavu/)
+[![ttf-ibm-plex](https://img.shields.io/archlinux/v/community/any/ttf-ibm-plex?label=ttf-ibm-plex&logo=archlinux&style=for-the-badge "Fonts used in `openbox`, `rxvt-unicode`, and `tint2`.")](https://archlinux.org/packages/community/any/ttf-ibm-plex/)
+[![ttf-liberation](https://img.shields.io/archlinux/v/community/any/ttf-liberation?label=ttf-liberation&logo=archlinux&style=for-the-badge "Fonts used in `openbox`, `rxvt-unicode`, and `tint2`.")](https://archlinux.org/packages/community/any/ttf-liberation/)
+[![unclutter](https://img.shields.io/archlinux/v/community/x86_64/unclutter?label=unclutter&logo=archlinux&style=for-the-badge "To auto-hide the mouse pointer.")](https://archlinux.org/packages/community/x86_64/unclutter/)
+[![urxvt-perls](https://img.shields.io/archlinux/v/community/any/urxvt-perls?label=urxvt-perls&logo=archlinux&style=for-the-badge "Extensions for `rxvt-unicode`.")](https://archlinux.org/packages/community/any/urxvt-perls/)
+[![vim](https://img.shields.io/archlinux/v/extra/x86_64/vim?label=vim&logo=archlinux&style=for-the-badge "The source code editor.")](https://archlinux.org/packages/extra/x86_64/vim/)
+[![volumeicon](https://img.shields.io/archlinux/v/community/x86_64/volumeicon?label=volumeicon&logo=archlinux&style=for-the-badge "To add volume icon in system tray.")](https://archlinux.org/packages/community/x86_64/volumeicon/)
+[![xorg-server](https://img.shields.io/archlinux/v/extra/x86_64/xorg-server?label=xorg-server&logo=archlinux&style=for-the-badge "Dependencies for `openbox`.")](https://archlinux.org/packages/extra/x86_64/xorg-server/)
+[![xorg-xinit](https://img.shields.io/archlinux/v/extra/x86_64/xorg-xinit?label=xorg-xinit&logo=archlinux&style=for-the-badge "Dependencies for `openbox`.")](https://archlinux.org/packages/extra/x86_64/xorg-xinit/)
 
 Optional Dependencies
 ---------------------
