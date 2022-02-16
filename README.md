@@ -1,15 +1,17 @@
 My Minimalist Desk Setup
 ========================
 
-![2021-11-07-200202_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140634586-64087020-6e99-41da-92a4-ae967e5e8cae.png)
+![Tint2](./Picture/Capture/tint2.png)
 
-![2021-11-07-200251_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140634588-b16a0124-5677-41da-b505-11e2ed863591.png)
+![Thunar](./Picture/Capture/thunar.png)
 
-![2021-11-07-200444_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140634593-8cdb1243-80a9-4fd0-87d1-41de7ae09e30.png)
+![URxvt](./Picture/Capture/urxvt.png)
 
-![2021-11-07-200657_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140634597-567e23a9-5eb4-40f2-970b-126dc596f529.png)
+![Xed](./Picture/Capture/xed.png)
 
-![2021-11-07-201622_1366x768_scrot](https://user-images.githubusercontent.com/1669261/140634658-9de29b4c-27e8-4e2e-af69-d70bc8e79ae7.png)
+![Code](./Picture/Capture/code.png)
+
+![LibreOffice](./Picture/Capture/libreoffice.png)
 
 Dependencies
 ------------
