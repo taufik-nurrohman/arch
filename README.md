@@ -52,6 +52,7 @@ Optional Dependencies
 [![alsa-utils](https://img.shields.io/archlinux/v/extra/x86_64/alsa-utils?label=alsa-utils&logo=archlinux&style=for-the-badge "This contains (among other utilities) the `alsamixer` and `amixer` utilities for `volumeicon`.")](https://archlinux.org/packages/extra/x86_64/alsa-utils/)
 [![drawing](https://img.shields.io/archlinux/v/community/any/drawing?label=drawing&logo=archlinux&style=for-the-badge "The &ldquo;paint&rdquo; application.")](https://archlinux.org/packages/community/any/drawing/)
 [![gimp](https://img.shields.io/archlinux/v/extra/x86_64/gimp?label=gimp&logo=archlinux&style=for-the-badge "The photo editor.")](https://archlinux.org/packages/extra/x86_64/gimp/)
+[![jmtpfs](https://img.shields.io/aur/version/jmtpfs?label=jmtpfs&logo=archlinux&style=for-the-badge "Optional dependency for `mtpfs`.")](https://aur.archlinux.org/packages/jmtpfs)
 [![libreoffice-fresh](https://img.shields.io/archlinux/v/extra/x86_64/libreoffice-fresh?label=libreoffice-fresh&logo=archlinux&style=for-the-badge "The office suites.")](https://archlinux.org/packages/extra/x86_64/libreoffice-fresh/)
 [![lxappearance](https://img.shields.io/archlinux/v/community/x86_64/lxappearance?label=lxappearance&logo=archlinux&style=for-the-badge "A utility tools to change the desktop theme and icons.")](https://archlinux.org/packages/community/x86_64/lxappearance/)
 [![obconf](https://img.shields.io/archlinux/v/community/x86_64/obconf?label=obconf&logo=archlinux&style=for-the-badge "A utility tools to change the desktop theme and icons.")](https://archlinux.org/packages/community/x86_64/obconf/)
@@ -61,9 +62,6 @@ Optional Dependencies
 [![vlc](https://img.shields.io/archlinux/v/extra/x86_64/vlc?label=vlc&logo=archlinux&style=for-the-badge "The video player.")](https://archlinux.org/packages/extra/x86_64/vlc/)
 [![xarchiver](https://img.shields.io/archlinux/v/community/x86_64/xarchiver?label=xarchiver&logo=archlinux&style=for-the-badge "Archiving and compression tools (also, don&rsquo;t forget to install `gzip`, `p2zip`, `rar`, `unrar`, `unzip`, and `zip`).")](https://archlinux.org/packages/community/x86_64/xarchiver/)
 [![xed](https://img.shields.io/archlinux/v/community/x86_64/xed?label=xed&logo=archlinux&style=for-the-badge "The text editor for average users.")](https://archlinux.org/packages/community/x86_64/xed/)
-
- - `gammy` → Brightness and color temperature controls.
- - `jmtpfs` → Optional dependency for `mtpfs`.
 
 My Keyboard Shortcuts
 ---------------------
