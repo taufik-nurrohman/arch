@@ -295,16 +295,22 @@ You should now be in MariaDB command line mode:
 MariaDB [(none)]>
 ~~~
 
+Type this command where `******` is your new password for the `root` user, then <kbd>↵</kbd>:
+
+~~~ .sh
+ALTER USER 'root'@'localhost' IDENTIFIED BY '******';
+~~~
+
+Then:
+
+~~~ .sh
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
+~~~
+
 Type this command then <kbd>↵</kbd>:
 
 ~~~ .sh
 FLUSH PRIVILEGES;
-~~~
-
-Type this command where `***` is your new password for the `root` user, then <kbd>↵</kbd>:
-
-~~~ .sh
-ALTER USER 'root'@'localhost' IDENTIFIED BY '***';
 ~~~
 
 Now exit from MariaDB command line mode:
