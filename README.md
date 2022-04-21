@@ -118,7 +118,7 @@ I am currently dual booting Linux and Windows, which somehow messed up the time.
 sudo timedatectl set-local-rtc 1 --adjust-system-clock
 ~~~
 
-### LAMP (Linux, Apache, MySQL, PHP/Perl/Python)
+### LAMP (Linux, Apache, MariaDB/MySQL, PHP/Perl/Python)
 
 I don&rsquo;t need Perl and Python for everyday life, and sometimes they are just installed anyway as dependencies of certain applications on Linux. So here I will focus on the installation and settings for Apache and PHP only.
 
