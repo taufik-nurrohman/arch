@@ -125,7 +125,7 @@ I don&rsquo;t need Perl and Python for everyday life, and sometimes they are jus
 #### Step 1: Install Apache
 
 ~~~ .sh
-sudo pacman -Syu apache
+sudo pacman -S apache
 ~~~
 
 The main configuration file is `/etc/httpd/conf/httpd.conf`, which includes various other configuration files. The default configuration file should be fine for a simple setup. By default, it will serve the directory `/srv/http` to anyone who visits your website.
@@ -133,7 +133,7 @@ The main configuration file is `/etc/httpd/conf/httpd.conf`, which includes vari
 Start Apache service:
 
 ~~~ .sh
-sudo systemctl enable httpd.service
+sudo systemctl enable httpd
 ~~~
 
 Apache should now be running. Test by visiting `http://127.0.0.1` in a web browser.
@@ -175,20 +175,59 @@ Then:
 sudo chown taufik:taufik /srv/http
 ~~~
 
+Enable the virtual host feature by uncommenting the following line, so that you can have multiple web root in a single `/srv/http` folder:
+
+~~~ .apacheconf
+#Include conf/extra/httpd-vhosts.conf
+~~~
+
+In `/etc/httpd/conf/extra/httpd-vhosts.conf` file, replace the contents with this:
+
+~~~ .apacheconf
+# Point `http://127.0.0.1` and `http://localhost` to `/srv/http` folder
+<VirtualHost *:80>
+  DocumentRoot '/srv/http'
+  ErrorLog '/var/log/httpd/error_log'
+  ServerName localhost
+</VirtualHost>
+
+# Point `http://work-1.test` to `/srv/http/work-1.test` folder
+<VirtualHost *:80>
+  CustomLog '/var/log/httpd/work-1.test.access_log' common
+  DocumentRoot '/srv/http/work-1.test'
+  ErrorLog '/var/log/httpd/work-1.test.error_log'
+  ServerAdmin webmaster@work-1.test
+  ServerName work-1.test
+  <Directory '/srv/http/work-1.test'>
+    Require all granted
+  </Directory>
+</VirtualHost>
+
+# Point `http://work-2.test` to `/srv/http/work-2.test` folder
+<VirtualHost *:80>
+  CustomLog '/var/log/httpd/work-2.test.access_log' common
+  DocumentRoot '/srv/http/work-2.test'
+  ErrorLog '/var/log/httpd/work-2.test.error_log'
+  ServerAdmin webmaster@work-2.test
+  ServerName work-2.test
+  <Directory '/srv/http/work-2.test'>
+    Require all granted
+  </Directory>
+</VirtualHost>
+~~~
+
 Don&rsquo;t forget to restart apache after update:
 
 ~~~ .sh
-sudo systemctl restart httpd.service
+sudo systemctl restart httpd
 ~~~
-
-_To be continued._
 
 #### Step 2: Install PHP
 
 This method is probably the easiest, but is also the least scalable: it is suitable for a light request load. It also requires you to change the MPM module, which may cause problems with other extensions (e.g. it is not compatible with HTTP/2).
 
 ~~~ .sh
-sudo pacman -Syu php-apache php-gd
+sudo pacman -S php-apache php-gd
 ~~~
 
 In `/etc/httpd/conf/httpd.conf`, comment this line:
@@ -227,17 +266,65 @@ Next, uncomment this line in `/etc/php/php.ini` to enable GD:
 Don&rsquo;t forget to restart apache after update:
 
 ~~~ .sh
-sudo systemctl restart httpd.service
+sudo systemctl restart httpd
 ~~~
 
-_To be continued._
+### MariaDB
+
+First, install `mariadb` package from terminal:
+
+~~~ .sh
+sudo pacman -S mariadb
+~~~
+
+Then run the following task:
+
+~~~ .sh
+mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+~~~
+
+Add a password for `root` user:
+
+~~~ .sh
+sudo mariadb -u root
+~~~
+
+You should now be in MariaDB command line mode:
+
+~~~ .sh
+MariaDB [(none)]>
+~~~
+
+Type this command then <kbd>↵</kbd>:
+
+~~~ .sh
+FLUSH PRIVILEGES;
+~~~
+
+Type this command where `***` is your new password for the `root` user, then <kbd>↵</kbd>:
+
+~~~ .sh
+ALTER USER 'root'@'localhost' IDENTIFIED BY '***';
+~~~
+
+Now exit from MariaDB command line mode:
+
+~~~ .sh
+exit
+~~~
+
+Test it:
+
+~~~ .sh
+mariadb -u root -p
+~~~
 
 ### Node.js
 
 First, install whatever versions of NodeJS and NPM are available. This will install a (probably) outdated version of NodeJS and NPM:
 
 ~~~ .sh
-sudo pacman -Syu nodejs npm
+sudo pacman -S nodejs npm
 ~~~
 
 Next, you need to update NPM. To update NPM, simply run the following:
