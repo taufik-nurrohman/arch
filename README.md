@@ -306,19 +306,19 @@ MariaDB [(none)]>
 
 Type this command where `******` is your new password for the `root` user, then <kbd>↵</kbd>:
 
-~~~ .sql
+~~~ .mysql
 ALTER USER 'root'@'localhost' IDENTIFIED BY '******';
 ~~~
 
 Then:
 
-~~~ .sql
+~~~ .mysql
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
 ~~~
 
 Type this command then <kbd>↵</kbd>:
 
-~~~ .sql
+~~~ .mysql
 FLUSH PRIVILEGES;
 ~~~
 
