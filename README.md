@@ -268,7 +268,7 @@ Include conf/extra/php_module.conf
 
 Next, uncomment this line in `/etc/php/php.ini` to enable GD:
 
-~~~ .sh
+~~~ .ini
 ;extension=gd
 ~~~
 
