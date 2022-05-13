@@ -1,1 +1,0 @@
-config.load_autoconfig()

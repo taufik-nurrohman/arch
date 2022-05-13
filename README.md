@@ -17,8 +17,9 @@ Dependencies
 ------------
 
 [![archlinux-xdg-menu](https://img.shields.io/archlinux/v/community/any/archlinux-xdg-menu?label=archlinux-xdg-menu&logo=archlinux&style=for-the-badge "To generate the applications menu.")](https://archlinux.org/packages/community/any/archlinux-xdg-menu/)
+[![chromium](https://img.shields.io/archlinux/v/community/x86_64/chromium?label=chromium&logo=archlinux&style=for-the-badge "The WebKit-based web browser.")](https://archlinux.org/packages/community/x86_64/firefox-developer-edition/)
 [![feh](https://img.shields.io/archlinux/v/extra/x86_64/feh?label=feh&logo=archlinux&style=for-the-badge "The image viewer and to add the wallpaper.")](https://archlinux.org/packages/extra/x86_64/feh/)
-[![firefox-developer-edition](https://img.shields.io/archlinux/v/community/x86_64/firefox-developer-edition?label=firefox-developer-edition&logo=archlinux&style=for-the-badge "The web browser.")](https://archlinux.org/packages/community/x86_64/firefox-developer-edition/)
+[![firefox-developer-edition](https://img.shields.io/archlinux/v/community/x86_64/firefox-developer-edition?label=firefox-developer-edition&logo=archlinux&style=for-the-badge "The Gecko-based web browser.")](https://archlinux.org/packages/community/x86_64/firefox-developer-edition/)
 [![gvfs](https://img.shields.io/archlinux/v/extra/x86_64/gvfs?label=gvfs&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/extra/x86_64/gvfs/)
 [![gvfs-gphoto2](https://img.shields.io/archlinux/v/extra/x86_64/gvfs-gphoto2?label=gvfs-gphoto2&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/extra/x86_64/gvfs-gphoto2/)
 [![gvfs-mtp](https://img.shields.io/archlinux/v/extra/x86_64/gvfs-mtp?label=gvfs-mtp&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/extra/x86_64/gvfs-mtp/)
@@ -45,7 +46,7 @@ Dependencies
 [![xorg-xinit](https://img.shields.io/archlinux/v/extra/x86_64/xorg-xinit?label=xorg-xinit&logo=archlinux&style=for-the-badge "Dependencies for `openbox`.")](https://archlinux.org/packages/extra/x86_64/xorg-xinit/)
 
 ~~~ .sh
-sudo pacman -Syu archlinux-xdg-menu feh firefox-developer-edition gvfs gvfs-gphoto2 gvfs-mtp mtpfs iwd network-manager-applet networkmanager ntfs-3g openbox picom rofi rxvt-unicode scrot thunar tint2 ttf-dejavu ttf-ibm-plex ttf-liberation unclutter urxvt-perls vim volumeicon xorg-server xorg-xinit
+sudo pacman -Syu archlinux-xdg-menu chromium feh firefox-developer-edition gvfs gvfs-gphoto2 gvfs-mtp mtpfs iwd network-manager-applet networkmanager ntfs-3g openbox picom rofi rxvt-unicode scrot thunar tint2 ttf-dejavu ttf-ibm-plex ttf-liberation unclutter urxvt-perls vim volumeicon xorg-server xorg-xinit
 ~~~
 
 Optional Dependencies
@@ -61,7 +62,6 @@ Optional Dependencies
 [![lxappearance](https://img.shields.io/archlinux/v/community/x86_64/lxappearance?label=lxappearance&logo=archlinux&style=for-the-badge "A utility tools to change the desktop theme and icons.")](https://archlinux.org/packages/community/x86_64/lxappearance/)
 [![obconf](https://img.shields.io/archlinux/v/community/x86_64/obconf?label=obconf&logo=archlinux&style=for-the-badge "A utility tools to change the desktop theme and icons.")](https://archlinux.org/packages/community/x86_64/obconf/)
 [![onboard](https://img.shields.io/archlinux/v/community/x86_64/onboard?label=onboard&logo=archlinux&style=for-the-badge "The on screen keyboard.")](https://archlinux.org/packages/community/x86_64/onboard/)
-[![qutebrowser](https://img.shields.io/archlinux/v/community/any/qutebrowser?label=qutebrowser&logo=archlinux&style=for-the-badge "WebKit-based web browser that is smaller than `chromium` from the file size, should be enough to test CSS and JavaScript features compared to Gecko-based web browser which is available via `firefox-development-edition`.")](https://archlinux.org/packages/community/any/qutebrowser/)
 [![thunar-archive-plugin](https://img.shields.io/archlinux/v/extra/x86_64/thunar-archive-plugin?label=thunar-archive-plugin&logo=archlinux&style=for-the-badge "To add archiving tasks in the context menu.")](https://archlinux.org/packages/extra/x86_64/thunar-archive-plugin/)
 [![thunar-media-tags-plugin](https://img.shields.io/archlinux/v/extra/x86_64/thunar-media-tags-plugin?label=thunar-media-tags-plugin&logo=archlinux&style=for-the-badge "To add/edit media tags.")](https://archlinux.org/packages/extra/x86_64/thunar-media-tags-plugin/)
 [![tumbler](https://img.shields.io/archlinux/v/extra/x86_64/tumbler?label=tumbler&logo=archlinux&style=for-the-badge "To generate image and video thumbnail for `thunar`.")](https://archlinux.org/packages/extra/x86_64/tumbler/)
@@ -70,7 +70,7 @@ Optional Dependencies
 [![xed](https://img.shields.io/archlinux/v/community/x86_64/xed?label=xed&logo=archlinux&style=for-the-badge "The text editor for average users.")](https://archlinux.org/packages/community/x86_64/xed/)
 
 ~~~ .sh
-sudo pacman -Syu adobe-source-han-sans-otc-fonts bdf-unifont alsa-utils drawing gimp jmtpfs libreoffice-fresh lxappearance obconf onboard qutebrowser thunar-archive-plugin thunar-media-tags-plugin tumbler vlc xarchiver xed
+sudo pacman -Syu adobe-source-han-sans-otc-fonts bdf-unifont alsa-utils drawing gimp jmtpfs libreoffice-fresh lxappearance obconf onboard thunar-archive-plugin thunar-media-tags-plugin tumbler vlc xarchiver xed
 ~~~
 
 My Keyboard Shortcuts
