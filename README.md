@@ -17,7 +17,7 @@ Dependencies
 ------------
 
 [![archlinux-xdg-menu](https://img.shields.io/archlinux/v/community/any/archlinux-xdg-menu?label=archlinux-xdg-menu&logo=archlinux&style=for-the-badge "To generate the applications menu.")](https://archlinux.org/packages/community/any/archlinux-xdg-menu/)
-[![chromium](https://img.shields.io/archlinux/v/community/x86_64/chromium?label=chromium&logo=archlinux&style=for-the-badge "The WebKit-based web browser.")](https://archlinux.org/packages/community/x86_64/firefox-developer-edition/)
+[![chromium](https://img.shields.io/archlinux/v/extra/x86_64/chromium?label=chromium&logo=archlinux&style=for-the-badge "The WebKit-based web browser.")](https://archlinux.org/packages/extra/x86_64/chromium/)
 [![feh](https://img.shields.io/archlinux/v/extra/x86_64/feh?label=feh&logo=archlinux&style=for-the-badge "The image viewer and to add the wallpaper.")](https://archlinux.org/packages/extra/x86_64/feh/)
 [![firefox-developer-edition](https://img.shields.io/archlinux/v/community/x86_64/firefox-developer-edition?label=firefox-developer-edition&logo=archlinux&style=for-the-badge "The Gecko-based web browser.")](https://archlinux.org/packages/community/x86_64/firefox-developer-edition/)
 [![gvfs](https://img.shields.io/archlinux/v/extra/x86_64/gvfs?label=gvfs&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/extra/x86_64/gvfs/)
