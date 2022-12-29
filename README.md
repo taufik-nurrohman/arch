@@ -62,6 +62,7 @@ Optional Dependencies
 [![lxappearance](https://img.shields.io/archlinux/v/community/x86_64/lxappearance?label=lxappearance&logo=archlinux&style=for-the-badge "A utility tools to change the desktop theme and icons.")](https://archlinux.org/packages/community/x86_64/lxappearance/)
 [![obconf](https://img.shields.io/archlinux/v/community/x86_64/obconf?label=obconf&logo=archlinux&style=for-the-badge "A utility tools to change the desktop theme and icons.")](https://archlinux.org/packages/community/x86_64/obconf/)
 [![onboard](https://img.shields.io/archlinux/v/community/x86_64/onboard?label=onboard&logo=archlinux&style=for-the-badge "The on screen keyboard.")](https://archlinux.org/packages/community/x86_64/onboard/)
+[![simple-scan](https://img.shields.io/archlinux/v/extra/x86_64/simple-scan?label=simple-scan&logo=archlinux&style=for-the-badge "The scanner GUI.")](https://archlinux.org/packages/extra/x86_64/simple-scan/)
 [![thunar-archive-plugin](https://img.shields.io/archlinux/v/extra/x86_64/thunar-archive-plugin?label=thunar-archive-plugin&logo=archlinux&style=for-the-badge "To add archiving tasks in the context menu.")](https://archlinux.org/packages/extra/x86_64/thunar-archive-plugin/)
 [![thunar-media-tags-plugin](https://img.shields.io/archlinux/v/extra/x86_64/thunar-media-tags-plugin?label=thunar-media-tags-plugin&logo=archlinux&style=for-the-badge "To add/edit media tags.")](https://archlinux.org/packages/extra/x86_64/thunar-media-tags-plugin/)
 [![tumbler](https://img.shields.io/archlinux/v/extra/x86_64/tumbler?label=tumbler&logo=archlinux&style=for-the-badge "To generate image and video thumbnail for `thunar`.")](https://archlinux.org/packages/extra/x86_64/tumbler/)
@@ -70,7 +71,7 @@ Optional Dependencies
 [![xed](https://img.shields.io/archlinux/v/community/x86_64/xed?label=xed&logo=archlinux&style=for-the-badge "The text editor for average users.")](https://archlinux.org/packages/community/x86_64/xed/)
 
 ~~~ .sh
-sudo pacman -Syu adobe-source-han-sans-otc-fonts bdf-unifont alsa-utils drawing gimp jmtpfs libreoffice-fresh lxappearance obconf onboard thunar-archive-plugin thunar-media-tags-plugin tumbler vlc xarchiver xed
+sudo pacman -Syu adobe-source-han-sans-otc-fonts bdf-unifont alsa-utils drawing gimp jmtpfs libreoffice-fresh lxappearance obconf onboard simple-scan thunar-archive-plugin thunar-media-tags-plugin tumbler vlc xarchiver xed
 ~~~
 
 My Keyboard Shortcuts
@@ -369,5 +370,5 @@ sudo n lts
 Credits
 -------
 
- - [Material Black Theme](https://www.opendesktop.org/p/1316887)
- - [Papirus Icon Theme](https://www.opendesktop.org/p/1166289)
+ - [Material Black Theme](https://www.opendesktop.org/p/1316887) `yay material-black-colors-theme`
+ - [Papirus Icon Theme](https://www.opendesktop.org/p/1166289) `pacman -S papirus-icon-theme` and `yay papirus-folders`
