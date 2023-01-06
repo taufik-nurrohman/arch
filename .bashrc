@@ -19,11 +19,13 @@ alias .....='cd ../../../..'
 alias ....='cd ../../..'
 alias ...='cd ../..'
 alias ..='cd ..'
+alias grub-compile='grub-mkconfig -o /boot/grub/grub.cfg'
 alias home='cd $HOME'
 alias la='ls -A --color=auto'
 alias ls='ls --color=auto'
 alias sudo='sudo ' # <https://stackoverflow.com/a/37210013/1163000>
 alias www='cd /srv/http'
+alias xterm='urxvt'
 
 # Function to change the terminal title automatically
 title() {
