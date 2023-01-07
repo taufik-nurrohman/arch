@@ -53,7 +53,6 @@ Optional Dependencies
 ---------------------
 
 [![adobe-source-han-sans-otc-fonts](https://img.shields.io/archlinux/v/community/any/adobe-source-han-sans-otc-fonts?label=adobe-source-han-sans-otc-fonts&logo=archlinux&style=for-the-badge "To add unicode fonts fallback.")](https://archlinux.org/packages/community/any/adobe-source-han-sans-otc-fonts/)
-[![bdf-unifont](https://img.shields.io/archlinux/v/extra/any/bdf-unifont?label=bdf-unifont&logo=archlinux&style=for-the-badge "To add unicode fonts fallback.")](https://archlinux.org/packages/extra/any/bdf-unifont/)
 [![alsa-utils](https://img.shields.io/archlinux/v/extra/x86_64/alsa-utils?label=alsa-utils&logo=archlinux&style=for-the-badge "This contains (among other utilities) the `alsamixer` and `amixer` utilities for `volumeicon`.")](https://archlinux.org/packages/extra/x86_64/alsa-utils/)
 [![drawing](https://img.shields.io/archlinux/v/community/any/drawing?label=drawing&logo=archlinux&style=for-the-badge "The &ldquo;paint&rdquo; application.")](https://archlinux.org/packages/community/any/drawing/)
 [![gimp](https://img.shields.io/archlinux/v/extra/x86_64/gimp?label=gimp&logo=archlinux&style=for-the-badge "The photo editor.")](https://archlinux.org/packages/extra/x86_64/gimp/)
@@ -71,7 +70,7 @@ Optional Dependencies
 [![xed](https://img.shields.io/archlinux/v/community/x86_64/xed?label=xed&logo=archlinux&style=for-the-badge "The text editor for average users.")](https://archlinux.org/packages/community/x86_64/xed/)
 
 ~~~ .sh
-sudo pacman -Syu adobe-source-han-sans-otc-fonts bdf-unifont alsa-utils drawing gimp jmtpfs libreoffice-fresh lxappearance obconf onboard simple-scan thunar-archive-plugin thunar-media-tags-plugin tumbler vlc xarchiver xed
+sudo pacman -Syu adobe-source-han-sans-otc-fonts alsa-utils drawing gimp jmtpfs libreoffice-fresh lxappearance obconf onboard simple-scan thunar-archive-plugin thunar-media-tags-plugin tumbler vlc xarchiver xed
 ~~~
 
 My Keyboard Shortcuts
@@ -370,5 +369,5 @@ sudo n lts
 Credits
 -------
 
- - [Material Black Theme](https://www.opendesktop.org/p/1316887) `yay material-black-colors-theme`
- - [Papirus Icon Theme](https://www.opendesktop.org/p/1166289) `pacman -S papirus-icon-theme` and `yay papirus-folders`
+ - [Material Black Theme](https://www.opendesktop.org/p/1316887)
+ - [Papirus Icon Theme](https://www.opendesktop.org/p/1166289)

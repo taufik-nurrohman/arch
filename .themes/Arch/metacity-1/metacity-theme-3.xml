@@ -1,11 +1,14 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-  <name>Material-Black-Blueberry-4.0</name>
+  <name>Material-Black-Blueberry</name>
+  <author>rtl88</author>
+  <copyright>CC-BY-SA 2.0</copyright>
+  <date>31 July 2019</date>
   <author>nana-4</author>
   <copyright>GPL</copyright>
   <date>2020</date>
-  <description>Material-Black-Blueberry-4.0 Metacity theme</description>
+  <description>Material-Black-Blueberry Metacity theme</description>
 </info>
 
 <!-- meaningful constants -->
@@ -496,10 +499,10 @@
   <piece position="titlebar" draw_ops="entire_background_unfocused"/>
 </frame_style>
 
-<frame_style name="dialog_focused" geometry="nobuttons" parent="normal_focused">
+<frame_style name="dialog_focused" geometry="normal" parent="normal_focused">
 </frame_style>
 
-<frame_style name="dialog_unfocused" geometry="nobuttons" parent="normal_unfocused">
+<frame_style name="dialog_unfocused" geometry="normal" parent="normal_unfocused">
 </frame_style>
 
 <frame_style name="modal_dialog_focused" geometry="modal" parent="normal_focused">
