@@ -9,7 +9,7 @@
   <property name="last-statusbar-visible" type="bool" value="false"/>
   <property name="last-menubar-visible" type="bool" value="true"/>
   <property name="last-details-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_38_PERCENT"/>
-  <property name="last-details-view-column-widths" type="string" value="50,127,127,127,127,375,50,63,837,136,50,62,50,50"/>
+  <property name="last-details-view-column-widths" type="string" value="50,127,127,127,127,375,50,63,830,136,50,69,50,50"/>
   <property name="last-details-view-visible-columns" type="string" value="THUNAR_COLUMN_DATE_MODIFIED,THUNAR_COLUMN_NAME,THUNAR_COLUMN_SIZE"/>
   <property name="misc-date-style" type="string" value="THUNAR_DATE_STYLE_YYYYMMDD"/>
   <property name="last-window-width" type="int" value="1244"/>
@@ -45,7 +45,7 @@
   <property name="last-image-preview-visible" type="bool" value="false"/>
   <property name="misc-image-preview-mode" type="string" value="THUNAR_IMAGE_PREVIEW_MODE_EMBEDDED"/>
   <property name="last-toolbar-item-order" type="string" value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17"/>
-  <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,1,0"/>
+  <property name="last-toolbar-visible-buttons" type="string" value="0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0"/>
   <property name="last-compact-view-zoom-level" type="string" value="THUNAR_ZOOM_LEVEL_25_PERCENT"/>
   <property name="misc-folders-first" type="bool" value="true"/>
   <property name="misc-directory-specific-settings" type="bool" value="true"/>
