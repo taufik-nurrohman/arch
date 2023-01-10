@@ -1,0 +1,16 @@
+[Configuration]
+LastActiveMode=THUNAR_RENAMER_MODE_NAME
+LastActiveRenamer=ThunarSbrReplaceRenamer
+
+[ThunarSbrDateRenamer]
+Offset=0
+Mode=THUNAR_SBR_DATE_MODE_ATIME
+Format=%Y-%m-%d-%H-%M-%S-
+OffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
+
+[ThunarSbrReplaceRenamer]
+CaseSensitive=FALSE
+Replacement=$1.\ 
+Pattern=^(\\d+)_
+Regexp=TRUE
+

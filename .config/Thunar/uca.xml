@@ -3,9 +3,11 @@
 <action>
 	<icon>cm_runterm</icon>
 	<name>Open Terminal Here</name>
+	<submenu></submenu>
 	<unique-id>1623428989071055-1</unique-id>
 	<command>urxvt</command>
 	<description>Open folder in terminal.</description>
+	<range></range>
 	<patterns>*</patterns>
 	<directories/>
 	<audio-files/>
@@ -15,20 +17,13 @@
 	<video-files/>
 </action>
 <action>
-	<icon>go-home</icon>
-	<name>Set as Wallpaper</name>
-	<unique-id>1636322722731415-2</unique-id>
-	<command>feh --bg-fill %f --no-fehbg</command>
-	<description>Set as desktop wallpaper.</description>
-	<patterns>*</patterns>
-	<image-files/>
-</action>
-<action>
 	<icon>view-hidden</icon>
 	<name>View Image</name>
+	<submenu></submenu>
 	<unique-id>1636322028159697-1</unique-id>
 	<command>feh --conversion-timeout 1 --scale-down</command>
 	<description>Open image in image viewer.</description>
+	<range></range>
 	<patterns>*</patterns>
 	<image-files/>
 </action>

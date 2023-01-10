@@ -267,6 +267,11 @@
     <!--   <action name="Uniconify"/> -->
     <!-- </keybind> -->
     <!-- Utility -->
+    <keybind key="Menu">
+      <action name="ShowMenu">
+        <menu>root-menu</menu>
+      </action>
+    </keybind>
     <keybind key="Print">
       <action name="Execute">
         <command>scrot --border --delay 10 --exec='mkdir -p ~/Picture/Capture &amp;&amp; mv $f ~/Picture/Capture/$n &amp;&amp; thunar ~/Picture/Capture' --freeze --pointer --quality 100</command>
