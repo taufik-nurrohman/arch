@@ -1,0 +1,5 @@
+gammy
+tor-browser
+visual-studio-code-bin
+yay
+zoom
