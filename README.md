@@ -117,7 +117,7 @@ Visit [this project page](https://github.com/taufik-nurrohman/vim) to configure 
 Reminders
 ---------
 
-The following are tasks that I personally need but often forget. They are not required to make your Arch Linux look like the screenshots above.
+The following are tasks that I personally need but often forget. They are not required to make your Arch Linux to look like the screenshots above.
 
 ### Arch
 
