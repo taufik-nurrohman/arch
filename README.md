@@ -45,7 +45,7 @@ Dependencies
 [![xorg-server](https://img.shields.io/archlinux/v/extra/x86_64/xorg-server?label=xorg-server&logo=archlinux&style=for-the-badge "Dependencies for `openbox`.")](https://archlinux.org/packages/extra/x86_64/xorg-server/)
 [![xorg-xinit](https://img.shields.io/archlinux/v/extra/x86_64/xorg-xinit?label=xorg-xinit&logo=archlinux&style=for-the-badge "Dependencies for `openbox`.")](https://archlinux.org/packages/extra/x86_64/xorg-xinit/)
 
-~~~ .sh
+~~~ sh
 sudo pacman -Syu archlinux-xdg-menu chromium feh firefox-developer-edition gvfs gvfs-gphoto2 gvfs-mtp mtpfs iwd network-manager-applet networkmanager ntfs-3g openbox picom rofi rxvt-unicode scrot thunar tint2 ttf-dejavu ttf-ibm-plex ttf-liberation unclutter urxvt-perls vim volumeicon xorg-server xorg-xinit
 ~~~
 
@@ -54,7 +54,7 @@ Optional Dependencies
 
 [![adobe-source-han-sans-otc-fonts](https://img.shields.io/archlinux/v/community/any/adobe-source-han-sans-otc-fonts?label=adobe-source-han-sans-otc-fonts&logo=archlinux&style=for-the-badge "To add unicode fonts fallback.")](https://archlinux.org/packages/community/any/adobe-source-han-sans-otc-fonts/)
 [![alsa-utils](https://img.shields.io/archlinux/v/extra/x86_64/alsa-utils?label=alsa-utils&logo=archlinux&style=for-the-badge "This contains (among other utilities) the `alsamixer` and `amixer` utilities for `volumeicon`.")](https://archlinux.org/packages/extra/x86_64/alsa-utils/)
-[![drawing](https://img.shields.io/archlinux/v/community/any/drawing?label=drawing&logo=archlinux&style=for-the-badge "The &ldquo;paint&rdquo; application.")](https://archlinux.org/packages/community/any/drawing/)
+[![drawing](https://img.shields.io/archlinux/v/community/any/drawing?label=drawing&logo=archlinux&style=for-the-badge "The “paint” application.")](https://archlinux.org/packages/community/any/drawing/)
 [![gimp](https://img.shields.io/archlinux/v/extra/x86_64/gimp?label=gimp&logo=archlinux&style=for-the-badge "The photo editor.")](https://archlinux.org/packages/extra/x86_64/gimp/)
 [![jmtpfs](https://img.shields.io/aur/version/jmtpfs?label=jmtpfs&logo=archlinux&style=for-the-badge "Optional dependency for `mtpfs`.")](https://aur.archlinux.org/packages/jmtpfs)
 [![libreoffice-fresh](https://img.shields.io/archlinux/v/extra/x86_64/libreoffice-fresh?label=libreoffice-fresh&logo=archlinux&style=for-the-badge "The office suites.")](https://archlinux.org/packages/extra/x86_64/libreoffice-fresh/)
@@ -66,10 +66,10 @@ Optional Dependencies
 [![thunar-media-tags-plugin](https://img.shields.io/archlinux/v/extra/x86_64/thunar-media-tags-plugin?label=thunar-media-tags-plugin&logo=archlinux&style=for-the-badge "To add/edit media tags.")](https://archlinux.org/packages/extra/x86_64/thunar-media-tags-plugin/)
 [![tumbler](https://img.shields.io/archlinux/v/extra/x86_64/tumbler?label=tumbler&logo=archlinux&style=for-the-badge "To generate image and video thumbnail for `thunar`.")](https://archlinux.org/packages/extra/x86_64/tumbler/)
 [![vlc](https://img.shields.io/archlinux/v/extra/x86_64/vlc?label=vlc&logo=archlinux&style=for-the-badge "The video player.")](https://archlinux.org/packages/extra/x86_64/vlc/)
-[![xarchiver](https://img.shields.io/archlinux/v/community/x86_64/xarchiver?label=xarchiver&logo=archlinux&style=for-the-badge "Archiving and compression tools (also, don&rsquo;t forget to install `gzip`, `p2zip`, `rar`, `unrar`, `unzip`, and `zip`).")](https://archlinux.org/packages/community/x86_64/xarchiver/)
+[![xarchiver](https://img.shields.io/archlinux/v/community/x86_64/xarchiver?label=xarchiver&logo=archlinux&style=for-the-badge "Archiving and compression tools (also, don’t forget to install `gzip`, `p2zip`, `rar`, `unrar`, `unzip`, and `zip`).")](https://archlinux.org/packages/community/x86_64/xarchiver/)
 [![xed](https://img.shields.io/archlinux/v/community/x86_64/xed?label=xed&logo=archlinux&style=for-the-badge "The text editor for average users.")](https://archlinux.org/packages/community/x86_64/xed/)
 
-~~~ .sh
+~~~ sh
 sudo pacman -Syu adobe-source-han-sans-otc-fonts alsa-utils drawing gimp jmtpfs libreoffice-fresh lxappearance obconf onboard simple-scan thunar-archive-plugin thunar-media-tags-plugin tumbler vlc xarchiver xed
 ~~~
 
@@ -123,17 +123,17 @@ The following are tasks that I personally need but often forget. They are not re
 
 I am currently dual booting Linux and Windows, which somehow messed up the time. This command should fix the issue:
 
-~~~ .sh
+~~~ sh
 sudo timedatectl set-local-rtc 1 --adjust-system-clock
 ~~~
 
 ### LAMP (Linux, Apache, MariaDB/MySQL, PHP/Perl/Python)
 
-I don&rsquo;t need Perl and Python for everyday life, and sometimes they are just installed anyway as dependencies of certain applications on Linux. So here I will focus on the installation and settings for Apache and PHP only.
+I don’t need Perl and Python for everyday life, and sometimes they are just installed anyway as dependencies of certain applications on Linux. So here I will focus on the installation and settings for Apache and PHP only.
 
 #### Step 1: Install Apache
 
-~~~ .sh
+~~~ sh
 sudo pacman -S apache
 ~~~
 
@@ -141,7 +141,7 @@ The main configuration file is `/etc/httpd/conf/httpd.conf`, which includes vari
 
 Start Apache service:
 
-~~~ .sh
+~~~ sh
 sudo systemctl enable httpd
 ~~~
 
@@ -149,7 +149,7 @@ Apache should now be running. Test by visiting `http://127.0.0.1` in a web brows
 
 Allow to override the base configurations using `.htaccess` files by changing the directive in `/etc/httpd/conf/httpd.conf` from `AllowOverride None` to `AllowOverride All`:
 
-~~~ .apacheconf
+~~~ apacheconf
 <Directory "/srv/http">
   Options Indexes FollowSymLinks
   AllowOverride All
@@ -159,19 +159,19 @@ Allow to override the base configurations using `.htaccess` files by changing th
 
 Enable `mod_rewrite` module by uncommenting the following line:
 
-~~~ .apacheconf
+~~~ apacheconf
 #LoadModule rewrite_module modules/mod_rewrite.so
 ~~~
 
-Disable user&rsquo;s `public_html` directory from being on the web server by commenting this line in `/etc/httpd/conf/httpd.conf`:
+Disable user’s `public_html` directory from being on the web server by commenting this line in `/etc/httpd/conf/httpd.conf`:
 
-~~~ .apacheconf
+~~~ apacheconf
 Include conf/extra/httpd-userdir.conf
 ~~~
 
 Since I use this web server for development tools, it never hurts to make `/srv/http` folder accessible by me so that I can do file management in there freely:
 
-~~~ .apacheconf
+~~~ apacheconf
 <IfModule unixd_module>
   User taufik
   Group taufik
@@ -180,19 +180,19 @@ Since I use this web server for development tools, it never hurts to make `/srv/
 
 Then:
 
-~~~ .sh
+~~~ sh
 sudo chown taufik:taufik /srv/http
 ~~~
 
 Enable the virtual host feature by uncommenting the following line, so that you can have multiple web root in a single `/srv/http` folder:
 
-~~~ .apacheconf
+~~~ apacheconf
 #Include conf/extra/httpd-vhosts.conf
 ~~~
 
 In `/etc/httpd/conf/extra/httpd-vhosts.conf` file, replace the contents with this:
 
-~~~ .apacheconf
+~~~ apacheconf
 # Point `http://127.0.0.1` and `http://localhost` to `/srv/http` folder
 <VirtualHost *:80>
   DocumentRoot '/srv/http'
@@ -225,9 +225,9 @@ In `/etc/httpd/conf/extra/httpd-vhosts.conf` file, replace the contents with thi
 </VirtualHost>
 ~~~
 
-Don&rsquo;t forget to restart apache after update:
+Don’t forget to restart apache after update:
 
-~~~ .sh
+~~~ sh
 sudo systemctl restart httpd
 ~~~
 
@@ -235,19 +235,19 @@ sudo systemctl restart httpd
 
 This method is probably the easiest, but is also the least scalable: it is suitable for a light request load. It also requires you to change the MPM module, which may cause problems with other extensions (e.g. it is not compatible with HTTP/2).
 
-~~~ .sh
+~~~ sh
 sudo pacman -S php-apache php-gd
 ~~~
 
 In `/etc/httpd/conf/httpd.conf`, comment this line:
 
-~~~ .apacheconf
+~~~ apacheconf
 LoadModule mpm_event_module modules/mod_mpm_event.so
 ~~~
 
-&hellip; and uncomment this line:
+… and uncomment this line:
 
-~~~ .apacheconf
+~~~ apacheconf
 #LoadModule mpm_prefork_module modules/mod_mpm_prefork.so
 ~~~
 
@@ -255,26 +255,26 @@ To enable PHP, add these lines to `/etc/httpd/conf/httpd.conf`:
 
 Place this at the end of the `LoadModule` list:
 
-~~~ .apacheconf
+~~~ apacheconf
 LoadModule php_module modules/libphp.so
 AddHandler php-script .php
 ~~~
 
 Place this at the end of the `Include` list:
 
-~~~ .apacheconf
+~~~ apacheconf
 Include conf/extra/php_module.conf
 ~~~
 
 Next, uncomment this line in `/etc/php/php.ini` to enable GD:
 
-~~~ .ini
+~~~ ini
 ;extension=gd
 ~~~
 
-Don&rsquo;t forget to restart apache after update:
+Don’t forget to restart apache after update:
 
-~~~ .sh
+~~~ sh
 sudo systemctl restart httpd
 ~~~
 
@@ -282,55 +282,55 @@ sudo systemctl restart httpd
 
 First, install `mariadb` package from terminal:
 
-~~~ .sh
+~~~ sh
 sudo pacman -S mariadb
 ~~~
 
 Then run the following task:
 
-~~~ .sh
+~~~ sh
 mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 ~~~
 
 Add a password for `root` user:
 
-~~~ .sh
+~~~ sh
 sudo mariadb -u root
 ~~~
 
 You should now be in MariaDB command line mode:
 
-~~~ .sh
+~~~ sh
 MariaDB [(none)]>
 ~~~
 
 Type this command where `******` is your new password for the `root` user, then <kbd>↵</kbd>:
 
-~~~ .mysql
+~~~ mysql
 ALTER USER 'root'@'localhost' IDENTIFIED BY '******';
 ~~~
 
 Then:
 
-~~~ .mysql
+~~~ mysql
 GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
 ~~~
 
 Type this command then <kbd>↵</kbd>:
 
-~~~ .mysql
+~~~ mysql
 FLUSH PRIVILEGES;
 ~~~
 
 Now exit from MariaDB command line mode:
 
-~~~ .sh
+~~~ sh
 exit
 ~~~
 
 Test it:
 
-~~~ .sh
+~~~ sh
 mariadb -u root -p
 ~~~
 
@@ -338,36 +338,106 @@ mariadb -u root -p
 
 First, install whatever versions of NodeJS and NPM are available. This will install a (probably) outdated version of NodeJS and NPM:
 
-~~~ .sh
+~~~ sh
 sudo pacman -S nodejs npm
 ~~~
 
 Next, you need to update NPM. To update NPM, simply run the following:
 
-~~~ .sh
+~~~ sh
 sudo npm i -g npm
 ~~~
 
 Then, install the package `n`:
 
-~~~ .sh
+~~~ sh
 sudo npm i -g n
 ~~~
 
 Use `n` to install the latest:
 
-~~~ .sh
+~~~ sh
 sudo n latest
 ~~~
 
-&hellip; or latest long-term support version of Node.js:
+… or latest long-term support version of Node.js:
 
-~~~ .sh
+~~~ sh
 sudo n lts
 ~~~
+
+Surgery
+-------
+
+In most cases you may run into problems with your current Arch Linux installation while you are experimenting with a particular package. These problems can actually be fixed but are often hampered due to the difficulty of accessing the terminal CLI when you are stuck in a certain condition while booting into the operating system’s GUI.
+
+The following are some ways you can do to be able to enter into the terminal mode when something unexpected happens. All of these methods do not require the installation medium and internet access:
+
+### Stuck in the GRUB Rescue
+
+_TODO_
+
+### Stuck in the GRUB Screen
+
+_TODO_
+
+### Stuck in the Log-In Prompt
+
+Always returns to the log-in prompt after entering the password so it gives the impression that you have repeatedly entered the wrong password. The real issue is that your computer failed to execute the `startx` command, so there could be a problem with the display manager.
+
+Reboot the Arch Linux and go the the GRUB boot loader screen, choose the first option ‘Arch Linux’. Immediately press the <kbd>e</kbd> key to enter in the edit mode. Go to the command line which looks more or less like this:
+
+~~~ sh
+linux    /boot/vmlinuz-linux root=UUID=****** rw    loglevel=3 quiet
+~~~
+
+Append `init=/bin/bash` at the end of the line so that the line will look like this:
+
+~~~ sh
+linux    /boot/vmlinuz-linux root=UUID=****** rw    loglevel=3 quiet init=/bin/bash
+~~~
+
+Now press <kbd>⎈</kbd><kbd>x</kbd> or <kbd>F10</kbd> to boot Arch Linux in single user mode. Below window confirms that we have entered in single user mode or rescue mode:
+
+~~~ sh
+[root@archlinux /]# _
+~~~
+
+To run commands and perform troubleshooting steps, you have to first mount root file system (`/`) in read-write mode. Run the following command to mount `/` file system in read-write mode:
+
+~~~ sh
+mount -n -o remount,rw /
+~~~
+
+Now you can perform checks and repairs on your file system. As a start, you may want to try executing command `ls` in the terminal. Since the issue was with the display manager, you may need to temporarily disable the automatic `startx` feature:
+
+~~~ sh
+cd /home/taufik
+vim .bash_profile
+~~~
+
+Then comment out these lines:
+
+~~~ sh
+if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ];
+then
+    [[ $(fgconsole 2>/dev/null) == 1 ]] && exec startx -- vt1 &> /dev/null
+fi
+~~~
+
+Save changes.
+
+Once the checks and repairs are done, run this command to reboot:
+
+~~~ sh
+exec /sbin/init
+~~~
+
+If the problem is resolved, then you can perform further repairs specific to the display manager.
 
 Credits
 -------
 
+ - [How to Boot Arch Linux in Single User Mode/Rescue Mode](https://www.linuxtechi.com/boot-arch-linux-single-user-mode-rescue-mode)
  - [Material Black Theme](https://www.opendesktop.org/p/1316887)
  - [Papirus Icon Theme](https://www.opendesktop.org/p/1166289)
