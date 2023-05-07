@@ -150,7 +150,7 @@ Apache should now be running. Test by visiting `http://127.0.0.1` in a web brows
 Allow to override the base configurations using `.htaccess` files by changing the directive in `/etc/httpd/conf/httpd.conf` from `AllowOverride None` to `AllowOverride All`:
 
 ~~~ apacheconf
-<Directory "/srv/http">
+<Directory '/srv/http'>
   Options Indexes FollowSymLinks
   AllowOverride All
   Require all granted
@@ -425,7 +425,7 @@ then
 fi
 ~~~
 
-Save changes.
+Save changes and exit.
 
 Once the checks and repairs are done, run this command to reboot:
 
