@@ -1,8 +1,9 @@
-[user]
-  email = hi@taufik-nurrohman.com
-  name = Taufik Nurrohman
-[credential]
-  helper = store
 [core]
   autocrlf = false
+  editor = vim
   eol = lf
+[credential]
+  helper = store
+[pull]
+  ff = only
+  rebase = false

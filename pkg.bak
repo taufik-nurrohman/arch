@@ -1,6 +1,7 @@
 adobe-source-han-sans-otc-fonts
 alsa-utils
 apache
+arandr
 archlinux-xdg-menu
 autoconf
 automake
@@ -63,13 +64,11 @@ phpmyadmin
 picom
 pkgconf
 python-pyalsa
-qutebrowser
 rofi
 rxvt-unicode
 screenkey
 scrot
 simple-scan
-simplescreenrecorder
 sshfs
 sudo
 terminus-font
@@ -94,6 +93,7 @@ which
 xarchiver
 xed
 xf86-video-intel
+xf86-video-nouveau
 xf86-video-vesa
 xorg-bdftopcf
 xorg-docs

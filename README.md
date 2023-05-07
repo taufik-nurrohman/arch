@@ -17,7 +17,6 @@ Dependencies
 ------------
 
 [![archlinux-xdg-menu](https://img.shields.io/archlinux/v/community/any/archlinux-xdg-menu?label=archlinux-xdg-menu&logo=archlinux&style=for-the-badge "To generate the applications menu.")](https://archlinux.org/packages/community/any/archlinux-xdg-menu/)
-[![chromium](https://img.shields.io/archlinux/v/extra/x86_64/chromium?label=chromium&logo=archlinux&style=for-the-badge "The WebKit-based web browser.")](https://archlinux.org/packages/extra/x86_64/chromium/)
 [![feh](https://img.shields.io/archlinux/v/extra/x86_64/feh?label=feh&logo=archlinux&style=for-the-badge "The image viewer and to add the wallpaper.")](https://archlinux.org/packages/extra/x86_64/feh/)
 [![firefox-developer-edition](https://img.shields.io/archlinux/v/community/x86_64/firefox-developer-edition?label=firefox-developer-edition&logo=archlinux&style=for-the-badge "The Gecko-based web browser.")](https://archlinux.org/packages/community/x86_64/firefox-developer-edition/)
 [![gvfs](https://img.shields.io/archlinux/v/extra/x86_64/gvfs?label=gvfs&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/extra/x86_64/gvfs/)
@@ -46,7 +45,7 @@ Dependencies
 [![xorg-xinit](https://img.shields.io/archlinux/v/extra/x86_64/xorg-xinit?label=xorg-xinit&logo=archlinux&style=for-the-badge "Dependencies for `openbox`.")](https://archlinux.org/packages/extra/x86_64/xorg-xinit/)
 
 ~~~ sh
-sudo pacman -Syu archlinux-xdg-menu chromium feh firefox-developer-edition gvfs gvfs-gphoto2 gvfs-mtp mtpfs iwd network-manager-applet networkmanager ntfs-3g openbox picom rofi rxvt-unicode scrot thunar tint2 ttf-dejavu ttf-ibm-plex ttf-liberation unclutter urxvt-perls vim volumeicon xorg-server xorg-xinit
+sudo pacman -Syu archlinux-xdg-menu feh firefox-developer-edition gvfs gvfs-gphoto2 gvfs-mtp mtpfs iwd network-manager-applet networkmanager ntfs-3g openbox picom rofi rxvt-unicode scrot thunar tint2 ttf-dejavu ttf-ibm-plex ttf-liberation unclutter urxvt-perls vim volumeicon xorg-server xorg-xinit
 ~~~
 
 Optional Dependencies
@@ -54,6 +53,8 @@ Optional Dependencies
 
 [![adobe-source-han-sans-otc-fonts](https://img.shields.io/archlinux/v/community/any/adobe-source-han-sans-otc-fonts?label=adobe-source-han-sans-otc-fonts&logo=archlinux&style=for-the-badge "To add unicode fonts fallback.")](https://archlinux.org/packages/community/any/adobe-source-han-sans-otc-fonts/)
 [![alsa-utils](https://img.shields.io/archlinux/v/extra/x86_64/alsa-utils?label=alsa-utils&logo=archlinux&style=for-the-badge "This contains (among other utilities) the `alsamixer` and `amixer` utilities for `volumeicon`.")](https://archlinux.org/packages/extra/x86_64/alsa-utils/)
+[![arandr](https://img.shields.io/archlinux/v/community/any/arandr?label=arandr&logo=archlinux&style=for-the-badge "Graphical user interface for the `xrandr` command to easily set custom screen resolution.")](https://archlinux.org/packages/community/any/arandr/)
+[![chromium](https://img.shields.io/archlinux/v/extra/x86_64/chromium?label=chromium&logo=archlinux&style=for-the-badge "The WebKit-based web browser.")](https://archlinux.org/packages/extra/x86_64/chromium/)
 [![drawing](https://img.shields.io/archlinux/v/community/any/drawing?label=drawing&logo=archlinux&style=for-the-badge "The “paint” application.")](https://archlinux.org/packages/community/any/drawing/)
 [![gimp](https://img.shields.io/archlinux/v/extra/x86_64/gimp?label=gimp&logo=archlinux&style=for-the-badge "The photo editor.")](https://archlinux.org/packages/extra/x86_64/gimp/)
 [![jmtpfs](https://img.shields.io/aur/version/jmtpfs?label=jmtpfs&logo=archlinux&style=for-the-badge "Optional dependency for `mtpfs`.")](https://aur.archlinux.org/packages/jmtpfs)
@@ -70,7 +71,7 @@ Optional Dependencies
 [![xed](https://img.shields.io/archlinux/v/community/x86_64/xed?label=xed&logo=archlinux&style=for-the-badge "The text editor for average users.")](https://archlinux.org/packages/community/x86_64/xed/)
 
 ~~~ sh
-sudo pacman -Syu adobe-source-han-sans-otc-fonts alsa-utils drawing gimp jmtpfs libreoffice-fresh lxappearance obconf onboard simple-scan thunar-archive-plugin thunar-media-tags-plugin tumbler vlc xarchiver xed
+sudo pacman -Syu adobe-source-han-sans-otc-fonts alsa-utils arandr chromium drawing gimp jmtpfs libreoffice-fresh lxappearance obconf onboard simple-scan thunar-archive-plugin thunar-media-tags-plugin tumbler vlc xarchiver xed
 ~~~
 
 My Keyboard Shortcuts
