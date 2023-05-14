@@ -25,18 +25,21 @@ URxvt.perl-ext-common: clipboard,default
 URxvt.cursorBlink: true
 URxvt.cursorUnderline: false
 URxvt.depth: 24
-URxvt.font: xft:IBM Plex Mono:antialias=true:size=9,xft:DejaVu Sans Mono:antialias=true:size=9
-! URxvt.font: xft:Fixedsys Excelsior:antialias=false:size=12
 URxvt.geometry: 100x25
 URxvt.internalBorder: 2
 URxvt.iso14755: false
-URxvt.letterSpace: -1
-! URxvt.letterSpace: -2
 URxvt.lineSpace: 0
 URxvt.saveLines: 10000
 URxvt.scrollBar: false
 URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
+
+URxvt.font: xft:IBM Plex Mono:antialias=true:size=9,xft:DejaVu Sans Mono:antialias=true:size=9
+URxvt.letterSpace: -1
+
+! URxvt.boldFont: xft:Fixedsys Excelsior:antialias=false:size=12
+! URxvt.font: xft:Fixedsys Excelsior:antialias=false:size=12
+! URxvt.letterSpace: -2
 
 URxvt*scrollTtyKeypress: true
 URxvt*scrollTtyOutput: false

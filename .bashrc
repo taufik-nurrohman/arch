@@ -21,6 +21,7 @@ alias ...='cd ../..'
 alias ..='cd ..'
 alias aur-restore='echo "TODO"'
 alias aur-save='pacman -Qqem > aur.bak'
+alias desk-update='feh --bg-fill $HOME/Picture/Wall/* --no-fehbg --randomize'
 alias grub-save='cp /etc/default/grub ~/grub.bak'
 alias grub-update='grub-mkconfig -o /boot/grub/grub.cfg'
 alias home='cd $HOME'
@@ -30,6 +31,7 @@ alias pkg-restore='pacman -S --needed - < ~/pkg.bak'
 alias pkg-save='pacman -Qqen > ~/pkg.bak'
 alias pkg-update-all='pacman -Syu'
 alias pkg-update='pacman -Syu --ignore=chromium,filezilla,firefox-developer-edition,gammy,gimp,libreoffice-fresh,obs-studio,openshot,simple-scan,vlc,xed' # Sync only the core package(s)
+alias rxvt-update='xrdb .xinit/.Xresources';
 alias sudo='sudo ' # <https://stackoverflow.com/a/37210013/1163000>
 alias www='cd /srv/http'
 alias xterm='urxvt'
@@ -57,3 +59,4 @@ title
 PS1='\[$(tput bold)\]\[$(tput setaf 2)\]\u@\h\[$(tput setaf 7)\]:\[$(tput setaf 4)\]\w\[$(tput sgr0)\]\$ '
 
 export TERM='xterm-256color'
+export XDG_SESSION_TYPE='X11'
