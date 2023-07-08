@@ -16,55 +16,63 @@ My Minimalist Desk Setup
 Dependencies
 ------------
 
-[![archlinux-xdg-menu](https://img.shields.io/archlinux/v/community/any/archlinux-xdg-menu?label=archlinux-xdg-menu&logo=archlinux&style=for-the-badge "To generate the applications menu.")](https://archlinux.org/packages/community/any/archlinux-xdg-menu/)
+[![archlinux-xdg-menu](https://img.shields.io/archlinux/v/extra/any/archlinux-xdg-menu?label=archlinux-xdg-menu&logo=archlinux&style=for-the-badge "To generate the applications menu.")](https://archlinux.org/packages/extra/any/archlinux-xdg-menu/)
 [![feh](https://img.shields.io/archlinux/v/extra/x86_64/feh?label=feh&logo=archlinux&style=for-the-badge "The image viewer and to add the wallpaper.")](https://archlinux.org/packages/extra/x86_64/feh/)
-[![firefox-developer-edition](https://img.shields.io/archlinux/v/community/x86_64/firefox-developer-edition?label=firefox-developer-edition&logo=archlinux&style=for-the-badge "The Gecko-based web browser.")](https://archlinux.org/packages/community/x86_64/firefox-developer-edition/)
+[![firefox-developer-edition](https://img.shields.io/archlinux/v/extra/x86_64/firefox-developer-edition?label=firefox-developer-edition&logo=archlinux&style=for-the-badge "The Gecko-based web browser.")](https://archlinux.org/packages/extra/x86_64/firefox-developer-edition/)
 [![gvfs](https://img.shields.io/archlinux/v/extra/x86_64/gvfs?label=gvfs&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/extra/x86_64/gvfs/)
 [![gvfs-gphoto2](https://img.shields.io/archlinux/v/extra/x86_64/gvfs-gphoto2?label=gvfs-gphoto2&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/extra/x86_64/gvfs-gphoto2/)
 [![gvfs-mtp](https://img.shields.io/archlinux/v/extra/x86_64/gvfs-mtp?label=gvfs-mtp&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/extra/x86_64/gvfs-mtp/)
-[![mtpfs](https://img.shields.io/archlinux/v/community/x86_64/mtpfs?label=mtpfs&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/community/x86_64/mtpfs/)
-[![iwd](https://img.shields.io/archlinux/v/community/x86_64/iwd?label=iwd&logo=archlinux&style=for-the-badge "The Wi-Fi network manager.")](https://archlinux.org/packages/community/x86_64/iwd/)
+[![mtpfs](https://img.shields.io/archlinux/v/extra/x86_64/mtpfs?label=mtpfs&logo=archlinux&style=for-the-badge "To detect and mount external devices automatically.")](https://archlinux.org/packages/extra/x86_64/mtpfs/)
+[![iwd](https://img.shields.io/archlinux/v/extra/x86_64/iwd?label=iwd&logo=archlinux&style=for-the-badge "The Wi-Fi network manager.")](https://archlinux.org/packages/extra/x86_64/iwd/)
 [![network-manager-applet](https://img.shields.io/archlinux/v/extra/x86_64/network-manager-applet?label=network-manager-applet&logo=archlinux&style=for-the-badge "To add network manager icon in system tray.")](https://archlinux.org/packages/extra/x86_64/network-manager-applet/)
 [![networkmanager](https://img.shields.io/archlinux/v/extra/x86_64/networkmanager?label=networkmanager&logo=archlinux&style=for-the-badge "The network manager.")](https://archlinux.org/packages/extra/x86_64/networkmanager/)
 [![ntfs-3g](https://img.shields.io/archlinux/v/extra/x86_64/ntfs-3g?label=ntfs-3g&logo=archlinux&style=for-the-badge "To add NTFS file system support.")](https://archlinux.org/packages/extra/x86_64/ntfs-3g/)
-[![openbox](https://img.shields.io/archlinux/v/community/x86_64/openbox?label=openbox&logo=archlinux&style=for-the-badge "The window manager.")](https://archlinux.org/packages/community/x86_64/openbox/)
-[![picom](https://img.shields.io/archlinux/v/community/x86_64/picom?label=picom&logo=archlinux&style=for-the-badge "To add shadow under windows.")](https://archlinux.org/packages/community/x86_64/picom/)
-[![rofi](https://img.shields.io/archlinux/v/community/x86_64/rofi?label=rofi&logo=archlinux&style=for-the-badge "The task runner.")](https://archlinux.org/packages/community/x86_64/rofi/)
-[![rxvt-unicode](https://img.shields.io/archlinux/v/community/x86_64/rxvt-unicode?label=rxvt-unicode&logo=archlinux&style=for-the-badge "The terminal emulator.")](https://archlinux.org/packages/community/x86_64/rxvt-unicode/)
-[![scrot](https://img.shields.io/archlinux/v/community/x86_64/scrot?label=scrot&logo=archlinux&style=for-the-badge "The screen capture utility.")](https://archlinux.org/packages/community/x86_64/scrot/)
+[![openbox](https://img.shields.io/archlinux/v/extra/x86_64/openbox?label=openbox&logo=archlinux&style=for-the-badge "The window manager.")](https://archlinux.org/packages/extra/x86_64/openbox/)
+[![picom](https://img.shields.io/archlinux/v/extra/x86_64/picom?label=picom&logo=archlinux&style=for-the-badge "To add shadow under windows.")](https://archlinux.org/packages/extra/x86_64/picom/)
+[![rofi](https://img.shields.io/archlinux/v/extra/x86_64/rofi?label=rofi&logo=archlinux&style=for-the-badge "The task runner.")](https://archlinux.org/packages/extra/x86_64/rofi/)
+[![rxvt-unicode](https://img.shields.io/archlinux/v/extra/x86_64/rxvt-unicode?label=rxvt-unicode&logo=archlinux&style=for-the-badge "The terminal emulator.")](https://archlinux.org/packages/extra/x86_64/rxvt-unicode/)
+[![scrot](https://img.shields.io/archlinux/v/extra/x86_64/scrot?label=scrot&logo=archlinux&style=for-the-badge "The screen capture utility.")](https://archlinux.org/packages/extra/x86_64/scrot/)
 [![thunar](https://img.shields.io/archlinux/v/extra/x86_64/thunar?label=thunar&logo=archlinux&style=for-the-badge "The file manager.")](https://archlinux.org/packages/extra/x86_64/thunar/)
-[![tint2](https://img.shields.io/archlinux/v/community/x86_64/tint2?label=tint2&logo=archlinux&style=for-the-badge "The task bar.")](https://archlinux.org/packages/community/x86_64/tint2/)
-[![ttf-dejavu](https://img.shields.io/archlinux/v/community/any/ttf-dejavu?label=ttf-dejavu&logo=archlinux&style=for-the-badge "Fonts used in `openbox`, `rxvt-unicode`, and `tint2`.")](https://archlinux.org/packages/community/any/ttf-dejavu/)
-[![ttf-ibm-plex](https://img.shields.io/archlinux/v/community/any/ttf-ibm-plex?label=ttf-ibm-plex&logo=archlinux&style=for-the-badge "Fonts used in `openbox`, `rxvt-unicode`, and `tint2`.")](https://archlinux.org/packages/community/any/ttf-ibm-plex/)
-[![ttf-liberation](https://img.shields.io/archlinux/v/community/any/ttf-liberation?label=ttf-liberation&logo=archlinux&style=for-the-badge "Fonts used in `openbox`, `rxvt-unicode`, and `tint2`.")](https://archlinux.org/packages/community/any/ttf-liberation/)
-[![unclutter](https://img.shields.io/archlinux/v/community/x86_64/unclutter?label=unclutter&logo=archlinux&style=for-the-badge "To auto-hide the mouse pointer.")](https://archlinux.org/packages/community/x86_64/unclutter/)
-[![urxvt-perls](https://img.shields.io/archlinux/v/community/any/urxvt-perls?label=urxvt-perls&logo=archlinux&style=for-the-badge "Extensions for `rxvt-unicode`.")](https://archlinux.org/packages/community/any/urxvt-perls/)
+[![tint2](https://img.shields.io/archlinux/v/extra/x86_64/tint2?label=tint2&logo=archlinux&style=for-the-badge "The task bar.")](https://archlinux.org/packages/extra/x86_64/tint2/)
+[![ttf-dejavu](https://img.shields.io/archlinux/v/extra/any/ttf-dejavu?label=ttf-dejavu&logo=archlinux&style=for-the-badge "Fonts used in `openbox`, `rxvt-unicode`, and `tint2`.")](https://archlinux.org/packages/extra/any/ttf-dejavu/)
+[![ttf-ibm-plex](https://img.shields.io/archlinux/v/extra/any/ttf-ibm-plex?label=ttf-ibm-plex&logo=archlinux&style=for-the-badge "Fonts used in `openbox`, `rxvt-unicode`, and `tint2`.")](https://archlinux.org/packages/extra/any/ttf-ibm-plex/)
+[![ttf-liberation](https://img.shields.io/archlinux/v/extra/any/ttf-liberation?label=ttf-liberation&logo=archlinux&style=for-the-badge "Fonts used in `openbox`, `rxvt-unicode`, and `tint2`.")](https://archlinux.org/packages/extra/any/ttf-liberation/)
+[![unclutter](https://img.shields.io/archlinux/v/extra/x86_64/unclutter?label=unclutter&logo=archlinux&style=for-the-badge "To auto-hide the mouse pointer.")](https://archlinux.org/packages/extra/x86_64/unclutter/)
+[![urxvt-perls](https://img.shields.io/archlinux/v/extra/any/urxvt-perls?label=urxvt-perls&logo=archlinux&style=for-the-badge "Extensions for `rxvt-unicode`.")](https://archlinux.org/packages/extra/any/urxvt-perls/)
 [![vim](https://img.shields.io/archlinux/v/extra/x86_64/vim?label=vim&logo=archlinux&style=for-the-badge "The source code editor.")](https://archlinux.org/packages/extra/x86_64/vim/)
-[![volumeicon](https://img.shields.io/archlinux/v/community/x86_64/volumeicon?label=volumeicon&logo=archlinux&style=for-the-badge "To add volume icon in system tray.")](https://archlinux.org/packages/community/x86_64/volumeicon/)
+[![volumeicon](https://img.shields.io/archlinux/v/extra/x86_64/volumeicon?label=volumeicon&logo=archlinux&style=for-the-badge "To add volume icon in system tray.")](https://archlinux.org/packages/extra/x86_64/volumeicon/)
 [![xorg-server](https://img.shields.io/archlinux/v/extra/x86_64/xorg-server?label=xorg-server&logo=archlinux&style=for-the-badge "Dependencies for `openbox`.")](https://archlinux.org/packages/extra/x86_64/xorg-server/)
 [![xorg-xinit](https://img.shields.io/archlinux/v/extra/x86_64/xorg-xinit?label=xorg-xinit&logo=archlinux&style=for-the-badge "Dependencies for `openbox`.")](https://archlinux.org/packages/extra/x86_64/xorg-xinit/)
+
+~~~ sh
+sudo pacman -Syu archlinux-xdg-menu feh firefox-developer-edition gvfs gvfs-gphoto2 gvfs-mtp mtpfs iwd network-manager-applet networkmanager ntfs-3g openbox picom rofi rxvt-unicode scrot thunar tint2 ttf-dejavu ttf-ibm-plex ttf-liberation unclutter urxvt-perls vim volumeicon xorg-server xorg-xinit
+~~~
 
 Optional Dependencies
 ---------------------
 
-[![adobe-source-han-sans-otc-fonts](https://img.shields.io/archlinux/v/community/any/adobe-source-han-sans-otc-fonts?label=adobe-source-han-sans-otc-fonts&logo=archlinux&style=for-the-badge "To add unicode fonts fallback.")](https://archlinux.org/packages/community/any/adobe-source-han-sans-otc-fonts/)
+[![adobe-source-han-sans-otc-fonts](https://img.shields.io/archlinux/v/extra/any/adobe-source-han-sans-otc-fonts?label=adobe-source-han-sans-otc-fonts&logo=archlinux&style=for-the-badge "To add unicode fonts fallback.")](https://archlinux.org/packages/extra/any/adobe-source-han-sans-otc-fonts/)
 [![alsa-utils](https://img.shields.io/archlinux/v/extra/x86_64/alsa-utils?label=alsa-utils&logo=archlinux&style=for-the-badge "This contains (among other utilities) the `alsamixer` and `amixer` utilities for `volumeicon`.")](https://archlinux.org/packages/extra/x86_64/alsa-utils/)
-[![arandr](https://img.shields.io/archlinux/v/community/any/arandr?label=arandr&logo=archlinux&style=for-the-badge "Graphical user interface for the `xrandr` command to easily set custom screen resolution.")](https://archlinux.org/packages/community/any/arandr/)
+[![arandr](https://img.shields.io/archlinux/v/extra/any/arandr?label=arandr&logo=archlinux&style=for-the-badge "Graphical user interface for the `xrandr` command to easily set custom screen resolution.")](https://archlinux.org/packages/extra/any/arandr/)
 [![chromium](https://img.shields.io/archlinux/v/extra/x86_64/chromium?label=chromium&logo=archlinux&style=for-the-badge "The WebKit-based web browser.")](https://archlinux.org/packages/extra/x86_64/chromium/)
-[![drawing](https://img.shields.io/archlinux/v/community/any/drawing?label=drawing&logo=archlinux&style=for-the-badge "The “paint” application.")](https://archlinux.org/packages/community/any/drawing/)
+[![drawing](https://img.shields.io/archlinux/v/extra/any/drawing?label=drawing&logo=archlinux&style=for-the-badge "The “paint” application.")](https://archlinux.org/packages/extra/any/drawing/)
 [![gimp](https://img.shields.io/archlinux/v/extra/x86_64/gimp?label=gimp&logo=archlinux&style=for-the-badge "The photo editor.")](https://archlinux.org/packages/extra/x86_64/gimp/)
 [![jmtpfs](https://img.shields.io/aur/version/jmtpfs?label=jmtpfs&logo=archlinux&style=for-the-badge "Optional dependency for `mtpfs`.")](https://aur.archlinux.org/packages/jmtpfs)
 [![libreoffice-fresh](https://img.shields.io/archlinux/v/extra/x86_64/libreoffice-fresh?label=libreoffice-fresh&logo=archlinux&style=for-the-badge "The office suites.")](https://archlinux.org/packages/extra/x86_64/libreoffice-fresh/)
-[![lxappearance](https://img.shields.io/archlinux/v/community/x86_64/lxappearance?label=lxappearance&logo=archlinux&style=for-the-badge "A utility tools to change the desktop theme and icons.")](https://archlinux.org/packages/community/x86_64/lxappearance/)
-[![obconf](https://img.shields.io/archlinux/v/community/x86_64/obconf?label=obconf&logo=archlinux&style=for-the-badge "A utility tools to change the desktop theme and icons.")](https://archlinux.org/packages/community/x86_64/obconf/)
-[![onboard](https://img.shields.io/archlinux/v/community/x86_64/onboard?label=onboard&logo=archlinux&style=for-the-badge "The on screen keyboard.")](https://archlinux.org/packages/community/x86_64/onboard/)
+[![lxappearance](https://img.shields.io/archlinux/v/extra/x86_64/lxappearance?label=lxappearance&logo=archlinux&style=for-the-badge "A utility tools to change the desktop theme and icons.")](https://archlinux.org/packages/extra/x86_64/lxappearance/)
+[![obconf](https://img.shields.io/archlinux/v/extra/x86_64/obconf?label=obconf&logo=archlinux&style=for-the-badge "A utility tools to change the desktop theme and icons.")](https://archlinux.org/packages/extra/x86_64/obconf/)
+[![onboard](https://img.shields.io/archlinux/v/extra/x86_64/onboard?label=onboard&logo=archlinux&style=for-the-badge "The on screen keyboard.")](https://archlinux.org/packages/extra/x86_64/onboard/)
 [![simple-scan](https://img.shields.io/archlinux/v/extra/x86_64/simple-scan?label=simple-scan&logo=archlinux&style=for-the-badge "The scanner GUI.")](https://archlinux.org/packages/extra/x86_64/simple-scan/)
 [![thunar-archive-plugin](https://img.shields.io/archlinux/v/extra/x86_64/thunar-archive-plugin?label=thunar-archive-plugin&logo=archlinux&style=for-the-badge "To add archiving tasks in the context menu.")](https://archlinux.org/packages/extra/x86_64/thunar-archive-plugin/)
 [![thunar-media-tags-plugin](https://img.shields.io/archlinux/v/extra/x86_64/thunar-media-tags-plugin?label=thunar-media-tags-plugin&logo=archlinux&style=for-the-badge "To add/edit media tags.")](https://archlinux.org/packages/extra/x86_64/thunar-media-tags-plugin/)
 [![tumbler](https://img.shields.io/archlinux/v/extra/x86_64/tumbler?label=tumbler&logo=archlinux&style=for-the-badge "To generate image and video thumbnail for `thunar`.")](https://archlinux.org/packages/extra/x86_64/tumbler/)
 [![vlc](https://img.shields.io/archlinux/v/extra/x86_64/vlc?label=vlc&logo=archlinux&style=for-the-badge "The video player.")](https://archlinux.org/packages/extra/x86_64/vlc/)
-[![xarchiver](https://img.shields.io/archlinux/v/community/x86_64/xarchiver?label=xarchiver&logo=archlinux&style=for-the-badge "Archiving and compression tools (also, don’t forget to install `gzip`, `p2zip`, `rar`, `unrar`, `unzip`, and `zip`).")](https://archlinux.org/packages/community/x86_64/xarchiver/)
-[![xed](https://img.shields.io/archlinux/v/community/x86_64/xed?label=xed&logo=archlinux&style=for-the-badge "The text editor for average users.")](https://archlinux.org/packages/community/x86_64/xed/)
+[![xarchiver](https://img.shields.io/archlinux/v/extra/x86_64/xarchiver?label=xarchiver&logo=archlinux&style=for-the-badge "Archiving and compression tools (also, don’t forget to install `gzip`, `p2zip`, `rar`, `unrar`, `unzip`, and `zip`).")](https://archlinux.org/packages/extra/x86_64/xarchiver/)
+[![xed](https://img.shields.io/archlinux/v/extra/x86_64/xed?label=xed&logo=archlinux&style=for-the-badge "The text editor for average users.")](https://archlinux.org/packages/extra/x86_64/xed/)
+
+~~~ sh
+sudo pacman -Syu adobe-source-han-sans-otc-fonts alsa-utils arandr chromium drawing gimp jmtpfs libreoffice-fresh lxappearance obconf onboard simple-scan thunar-archive-plugin thunar-media-tags-plugin tumbler vlc xarchiver xed
+~~~
 
 My Keyboard Shortcuts
 ---------------------
