@@ -44,10 +44,6 @@ Dependencies
 [![xorg-server](https://img.shields.io/archlinux/v/extra/x86_64/xorg-server?label=xorg-server&logo=archlinux&style=for-the-badge "Dependencies for `openbox`.")](https://archlinux.org/packages/extra/x86_64/xorg-server/)
 [![xorg-xinit](https://img.shields.io/archlinux/v/extra/x86_64/xorg-xinit?label=xorg-xinit&logo=archlinux&style=for-the-badge "Dependencies for `openbox`.")](https://archlinux.org/packages/extra/x86_64/xorg-xinit/)
 
-~~~ sh
-sudo pacman -Syu archlinux-xdg-menu feh firefox-developer-edition gvfs gvfs-gphoto2 gvfs-mtp mtpfs iwd network-manager-applet networkmanager ntfs-3g openbox picom rofi rxvt-unicode scrot thunar tint2 ttf-dejavu ttf-ibm-plex ttf-liberation unclutter urxvt-perls vim volumeicon xorg-server xorg-xinit
-~~~
-
 Optional Dependencies
 ---------------------
 
@@ -69,10 +65,6 @@ Optional Dependencies
 [![vlc](https://img.shields.io/archlinux/v/extra/x86_64/vlc?label=vlc&logo=archlinux&style=for-the-badge "The video player.")](https://archlinux.org/packages/extra/x86_64/vlc/)
 [![xarchiver](https://img.shields.io/archlinux/v/community/x86_64/xarchiver?label=xarchiver&logo=archlinux&style=for-the-badge "Archiving and compression tools (also, don’t forget to install `gzip`, `p2zip`, `rar`, `unrar`, `unzip`, and `zip`).")](https://archlinux.org/packages/community/x86_64/xarchiver/)
 [![xed](https://img.shields.io/archlinux/v/community/x86_64/xed?label=xed&logo=archlinux&style=for-the-badge "The text editor for average users.")](https://archlinux.org/packages/community/x86_64/xed/)
-
-~~~ sh
-sudo pacman -Syu adobe-source-han-sans-otc-fonts alsa-utils arandr chromium drawing gimp jmtpfs libreoffice-fresh lxappearance obconf onboard simple-scan thunar-archive-plugin thunar-media-tags-plugin tumbler vlc xarchiver xed
-~~~
 
 My Keyboard Shortcuts
 ---------------------
@@ -434,7 +426,23 @@ Once the checks and repairs are done, run this command to reboot:
 exec /sbin/init
 ~~~
 
-If the problem is resolved, then you can perform further repairs specific to the display manager.
+If the problem is resolved, then you can perform further repairs specific to the display manager:
+
+#### Failed Installing NVIDIA
+
+Tried installing NVIDIA recently and ended up failing. Now you can’t return to the previous state even though you have uninstalled the driver. Based on my experience, this happens because NVIDIA has added a configuration file that blacklist [Nouveau](https://wiki.archlinux.org/title/nouveau). The easiest solution for now is to un-blacklist Nouveau:
+
+~~~ sh
+sudo vim /usr/lib/modprobe.d/nvidia-utils.conf
+~~~
+
+Comment out this line, save, then reboot:
+
+~~~ sh
+blacklist nouveau
+~~~
+
+NVIDIA driver will be useless now, but at least you can learn to configure it properly next time.
 
 Credits
 -------
