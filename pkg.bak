@@ -1,3 +1,4 @@
+7zip
 adobe-source-han-sans-otc-fonts
 alsa-utils
 apache
@@ -13,6 +14,7 @@ bluez
 bluez-utils
 chromium
 composer
+debugedit
 dhcpcd
 drawing
 efibootmgr
@@ -36,6 +38,7 @@ htop
 intel-media-driver
 intel-ucode
 iwd
+keepass
 libreoffice-fresh
 libtool
 libva-intel-driver
@@ -46,18 +49,15 @@ m4
 make
 mariadb
 mtpfs
-neofetch
 net-tools
 network-manager-applet
 nodejs
 npm
 ntfs-3g
-obconf
 obs-studio
 openbox
 openshot
 os-prober
-p7zip
 patch
 pavucontrol
 php-apache

@@ -15,6 +15,9 @@ t() { grep -lrw '\t' | xargs perl -pi -e 's/\t/    /g'; }
 md() { mkdir "$@"; }
 rd() { rmdir "$@"; }
 
+mkv2mp4() { ffmpeg -i "$1.mkv" -codec copy "$2.mp4"; }
+mkvincspd() { ffmpeg -i "$2.mkv" -filter:v "setpts=PTS/$1" "$2@$1x.mkv"; }
+
 alias .....='cd ../../../..'
 alias ....='cd ../../..'
 alias ...='cd ../..'
@@ -22,6 +25,7 @@ alias ..='cd ..'
 alias aur-restore='echo "TODO"'
 alias aur-save='pacman -Qqem > aur.bak'
 alias desk-update='feh --bg-fill $HOME/Picture/Wall/* --no-fehbg --randomize'
+alias font-update='fc-cache -fv';
 alias grub-save='cp /etc/default/grub ~/grub.bak'
 alias grub-update='grub-mkconfig -o /boot/grub/grub.cfg'
 alias home='cd $HOME'
