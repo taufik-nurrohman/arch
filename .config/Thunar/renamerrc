@@ -1,16 +1,16 @@
 [Configuration]
 LastActiveMode=THUNAR_RENAMER_MODE_NAME
-LastActiveRenamer=ThunarSbrReplaceRenamer
-
-[ThunarSbrDateRenamer]
-Offset=0
-Mode=THUNAR_SBR_DATE_MODE_ATIME
-Format=%Y-%m-%d-%H-%M-%S-
-OffsetMode=THUNAR_SBR_OFFSET_MODE_LEFT
+LastActiveRenamer=ThunarSbrDateRenamer
 
 [ThunarSbrReplaceRenamer]
 CaseSensitive=FALSE
-Replacement=$1.\ 
-Pattern=^(\\d+)_
+Replacement=$1.5
+Pattern=^(\\d+)\\.3
 Regexp=TRUE
+
+[ThunarSbrDateRenamer]
+Offset=0
+Mode=THUNAR_SBR_DATE_MODE_MTIME
+Format=@%Y-%m-%d-%H-%M-%S
+OffsetMode=THUNAR_SBR_OFFSET_MODE_RIGHT
 
